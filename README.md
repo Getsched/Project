@@ -1,2 +1,2 @@
 # Project
-## [Business Case](documents/BUSINESS CASE.pdf)
+## [Business Case](documents/BUSINESSCASE.pdf)
