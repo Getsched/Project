@@ -11,6 +11,6 @@ Sophia Pasha, Ememobong Umoh, Seonyu Park
 
 ## Status
 - [x] add [Business Case](https://github.com/Getsched/Project/blob/main/documents/BUSINESSCASE.pdf)
-- [ ] add [Cost Estimate]()
-- [ ] add [Group Google Drive]()
-- [ ] add [Gantt Chart]()
+- [x] add [Cost Estimate](https://github.com/Getsched/Project/blob/main/documents/Cost_Estimates.pdf)
+- [x] add [Group Google Drive](https://github.com/Getsched/Project/blob/main/documents/Group_Google_Drive.md)
+- [x] add [Gantt Chart](https://github.com/Getsched/Project/blob/main/documents/Gantt_Chart.pdf)
