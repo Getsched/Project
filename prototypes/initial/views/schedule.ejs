@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="/public/styles/style.css">
+  <title>Workforce Scheduler</title>
+</head>
+<body>
+  <h1>Workforce Scheduler</h1>
+
+  <!-- Employee Availability Form -->
+  <form action="/submitAvailability" method="post">
+    <label for="employeeName">Employee Name:</label>
+    <input type="text" name="employeeName" required>
+
+    <label for="day">Day:</label>
+    <input type="text" name="day" required>
+
+    <label for="startTime">Start Time:</label>
+    <input type="text" name="startTime" required>
+
+    <label for="endTime">End Time:</label>
+    <input type="text" name="endTime" required>
+
+    <button type="submit">Submit Availability</button>
+  </form>
+
+  <!-- Schedule Generation Button -->
+  <form action="/generateSchedule" method="get">
+    <button type="submit">Generate Schedule</button>
+  </form>
+
+  <% if (schedule) { %>
+    <!-- Display Generated Schedule -->
+    <h2>Generated Schedule</h2>
+    <ul>
+      <% schedule.forEach(item => { %>
+        <li><%= item %></li>
+      <% }); %>
+    </ul>
+  <% } %>
+</body>
+</html>
