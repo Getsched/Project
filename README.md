@@ -14,3 +14,4 @@ Sophia Pasha, Ememobong Umoh, Seonyu Park
 - [x] add [Cost Estimate](https://github.com/Getsched/Project/blob/main/documents/Cost_Estimates.pdf)
 - [x] add [Group Google Drive](https://github.com/Getsched/Project/blob/main/documents/Group_Google_Drive.md)
 - [x] add [Gantt Chart](https://github.com/Getsched/Project/blob/main/documents/Gantt_Chart.pdf)
+- [ ] add Weekly Meeting Documents
