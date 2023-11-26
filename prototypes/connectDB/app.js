@@ -39,7 +39,7 @@ const User = mongoose.model("User", userSchema);
 
 
 const timeslotSchema = new mongoose.Schema({
-  day: String,
+  day: String ,
   isBooked: Boolean,
   bookedBy: String
 });
@@ -47,6 +47,7 @@ const timeslotSchema = new mongoose.Schema({
 const matrixSchema = new mongoose.Schema({
   matrix: [[timeslotSchema]]
 });
+
 
 const Timeslots = mongoose.model( "Timeslots", matrixSchema );
 const Matrix = mongoose.model('Matrix', matrixSchema);
@@ -60,7 +61,10 @@ const newMatrix = new Matrix({
 newMatrix.save();
 */
 
-
+// test manager id: manager@mail.com
+// test manager password: 1234
+// test employee id: park@gmail.com
+// test employee password: 1234
 passport.use(User.createStrategy());
 passport.serializeUser(User.serializeUser());
 passport.deserializeUser(User.deserializeUser());
@@ -148,7 +152,9 @@ app.post('/register', (req, res) => {
 app.get('/submitAvailability', async (req, res) => {
   if (req.isAuthenticated()) {
     try {
-      res.render('schedule',{ username: req.user.username });
+            // Fetch all data from the Matrix collection
+            const allMatrixData = await Matrix.find();
+      res.render('schedule',{ username: req.user.username,  matrixData: allMatrixData  });
     } catch (error) {
       console.log(error);
     }
@@ -758,31 +764,46 @@ app.post('/FridayEvening', async (req, res) => {
 
 
 
-app.post('/emptyTimeslot', async (req, res) => {
+app.post('/emptyTimeslot/:day', async (req, res) => {
   try {
+    // console.log('Before setting bookedBy to null:', matrixToUpdate.matrix[timeslotIndex][0].bookedBy);
+    const dayToEmpty = req.params.day;
 
-    // Create a newMatrix instance and add the new timeslot
-    const newMatrix = new Matrix({
-      matrix: [
-        [
-          {
-            isBooked: false,
-            bookedBy: null
-          }
-        ]
-      ]
-    });
+      // Find the matrix that corresponds to the desired day
+      const matrixToUpdate = await Matrix.findOne({ "matrix": { $elemMatch: { '0.day': dayToEmpty } } });
 
-    // Save the newMatrix with the added timeslot
-    await newMatrix.save();
 
-    console.log("Empty the timeslot:", newMatrix);
-    res.redirect('/');
+      if (!matrixToUpdate) {
+        console.log("Matrix not found for the specified day");
+        return res.redirect('/manager');
+      }
+  
+        // Find the index of the timeslot within the matrix
+    const timeslotIndex = matrixToUpdate.matrix.findIndex(
+      timeslot => timeslot[0].day === dayToEmpty
+    );
+
+    if (timeslotIndex === -1) {
+      console.log("Timeslot not found for the specified day");
+      return res.redirect('/manager');
+    }
+
+    // Update the isBooked property to false
+    matrixToUpdate.matrix[timeslotIndex][0].isBooked = false;
+    // matrixToUpdate.matrix[timeslotIndex][0].bookedBy = null;
+
+    // Save the updated matrix
+    await matrixToUpdate.save();
+
+    console.log(`Empty the timeslot for ${dayToEmpty}`);
+    // console.log('After setting bookedBy to null:', matrixToUpdate.matrix[timeslotIndex][0].bookedBy);
+    res.redirect('/manager');
   } catch (err) {
     console.error(err);
-    res.redirect('/');
+    res.redirect('/manager');
   }
 });
+
 
 
 app.get('/generateSchedule', async(req, res) => {
