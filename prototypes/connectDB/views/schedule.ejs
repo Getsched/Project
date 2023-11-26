@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  <link rel="stylesheet" href="style.css">
+  <title>Home Page</title>
+</head>
+
+<body>
+  <div class="container">
+    <header>
+      <div>
+        <a href="/home">
+          <img src="images/logo.png" alt="Your Logo" class="logo">
+        </a>
+
+      </div>
+      <nav>
+        <a href="/home">Home</a>
+        <a href="/submitAvailability">Schedule</a>
+        <a href="/about">About</a>
+        <a href="/contact">Contact</a>
+      </nav>
+      <form action="/logout" method="get">
+      <div class="auth-buttons">
+        <p class="input-field">
+          <button class="btn btn-primary btn-lg" type="submit" >Log Out</button>
+        </p>
+      </div>
+      </form>
+
+    </header>
+
+
+  <!-- <h1>Workforce Scheduler</h1> -->
+
+  <h2>Employee Name: <%= username %></h2>
+
+  <div>
+    <h3 id="weekStartDate"></h3>
+  </div>
+  <!-- Employee Availability Form -->
+
+
+<br>
+<br>
+<h3>Select Your Availability </h3>
+<div class="container">
+
+<div class="row">
+  <div class="col">
+    <p> Monday</p>
+    <form action="/MondayMorning" method = "POST">
+      <button type="submit">Monday <br>09:00 - 12:00</button></form>
+      <form action="/MondayAfternoon" method = "POST">
+        <button type="submit">Monday <br>12:00 - 15:00</button></form>
+        <form action="/MondayEvening" method = "POST">
+          <button type="submit">Monday <br>15:00 - 18:00</button></form>
+  </div>
+
+  <div class="col">
+    <p> Tuesday </p>
+    <form action="/TuesdayMorning" method = "POST">
+      <button type="submit">Tuesday <br>09:00 - 12:00</button></form>
+      <form action="/TuesdayAfternoon" method = "POST">
+        <button type="submit">Tuesday <br>12:00 - 15:00</button></form>
+        <form action="/TuesdayEvening" method = "POST">
+          <button type="submit">Tuesday<br> 15:00 - 18:00</button></form>
+    </div>
+
+  <div class="col">
+    <p> Wednesday </p>
+    <form action="/WednesdayMorning" method = "POST">
+      <button type="submit">Wednesday<br> 09:00 - 12:00</button></form>
+      <form action="/WednesdayAfternoon" method = "POST">
+        <button type="submit">Wednesday <br>12:00 - 15:00</button></form>
+        <form action="/WednesdayEvening" method = "POST">
+          <button type="submit">Wednesday<br> 15:00 - 18:00</button></form>
+  </div>
+  <div class="col">
+    <p> Thursday</p>
+    <form action="/ThursdayMorning" method = "POST">
+      <button type="submit">Thursday <br>09:00 - 12:00</button></form>
+      <form action="/ThursdayAfternoon" method = "POST">
+        <button type="submit">Thursday <br>12:00 - 15:00</button></form>
+        <form action="/ThursdayEvening" method = "POST">
+          <button type="submit">Thursday <br>15:00 - 18:00</button></form>
+  </div>
+
+  <div class="col">
+   
+<p> Friday </p>
+<form action="/FridayMorning" method = "POST">
+  <button type="submit">Friday <br>09:00 - 12:00</button></form>
+  <form action="/FrisdayAfternoon" method = "POST">
+    <button type="submit">Friday<br> 12:00 - 15:00</button></form>
+    <form action="/FridayEvening" method = "POST">
+      <button type="submit">Friday <br>15:00 - 18:00</button></form>
+  </div>
+
+  
+</div>
+</div>
+
+
+
+
+                              
+
+
+  
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+crossorigin="anonymous"> </script>
+<script>
+  const currentDate = new Date();
+  const sundayDate = new Date(currentDate);
+  sundayDate.setDate(currentDate.getDate() - currentDate.getDay());
+  const formattedSundayDate = `${sundayDate.getMonth() + 1}-${sundayDate.getDate()}-${sundayDate.getFullYear()}`;
+  document.getElementById('weekStartDate').textContent = `Today is a week of ${formattedSundayDate}`;
+</script>
+
+</body>
+</html>
