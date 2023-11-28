@@ -2,6 +2,7 @@ const express = require('express');
 const mongoose = require('mongoose');
 const session = require("express-session");
 const passport = require("passport");
+const bodyParser = require('body-parser');
 const passportLocalMongoose = require("passport-local-mongoose");
 require("dotenv").config();
 
@@ -10,6 +11,7 @@ const port = 3000;
 
 app.use(express.static("public"));
 app.use(express.urlencoded({ extended: true }));
+app.use(bodyParser.urlencoded({ extended: true }));
 
 app.use(session({
   secret: process.env.SECRET,
@@ -114,7 +116,7 @@ app.post('/login', async(req, res) => {
           if (loggedInUser && loggedInUser.isManager) {
             res.redirect('/manager')
           } else {
-            res.redirect("/submitAvailability");
+            res.redirect("/schedule");
           }
         } catch(err) {
           console.log(err);
@@ -138,7 +140,7 @@ app.post('/register', (req, res) => {
           res.redirect('/register');
         } else {
           passport.authenticate("local")(req, res, () => {
-            res.redirect(isManager ? '/manager' : '/submitAvailability');
+            res.redirect(isManager ? '/manager' : '/schedule');
           });
         }
       });
@@ -149,7 +151,7 @@ app.post('/register', (req, res) => {
 });
 
 
-app.get('/submitAvailability', async (req, res) => {
+app.get('/schedule', async (req, res) => {
   if (req.isAuthenticated()) {
     try {
             // Fetch all data from the Matrix collection
@@ -163,31 +165,6 @@ app.get('/submitAvailability', async (req, res) => {
   }
 });
 
-// app.post('/submitAvailability', async(req, res) => {
-//   try {
-//     const {day, startTime, endTime} = req.body;
-//     const availability = new Availability({
-//       employeeName: req.user.username,
-//       day: day,
-//       startTime: startTime,
-//       endTime: endTime,
-//     });
-
-//     await availability.save();
-//     res.redirect('/submitAvailability');
-//   } catch (err) {
-//     console.log(err);
-//     res.redirect('/submitAvailability');
-//   }
-// });
-/*
-const newMatrix = new Matrix({
-    matrix: [
-        [{ type: 'xyz', count: 10 }, { type: 'ABC', count: 20 }],
-        [{ type: 'pqr', count: 10 }]]
-});
-newMatrix.save();
-*/
 
 
 // adding new data in MongoDB
@@ -200,7 +177,7 @@ app.post('/MondayMorning', async (req, res) => {
     // If the matrix is found, it means the timeslot is already booked
     if (existingMatrix) {
       console.log("The timeslot is booked already");
-      return res.redirect('/submitAvailability');
+      return res.redirect('/schedule');
     }
 
     // Create a newMatrix instance and add the new timeslot
@@ -220,10 +197,10 @@ app.post('/MondayMorning', async (req, res) => {
     await newMatrix.save();
 
     console.log("New timeslot saved:", newMatrix);
-    res.redirect('/submitAvailability');
+    res.redirect('/schedule');
   } catch (err) {
     console.error(err);
-    res.redirect('/submitAvailability');
+    res.redirect('/schedule');
   }
 });
 
@@ -237,7 +214,7 @@ app.post('/MondayAfternoon', async (req, res) => {
     // If the matrix is found, it means the timeslot is already booked
     if (existingMatrix) {
       console.log("The timeslot is booked already");
-      return res.redirect('/submitAvailability');
+      return res.redirect('/schedule');
     }
 
     // Create a newMatrix instance and add the new timeslot
@@ -257,10 +234,10 @@ app.post('/MondayAfternoon', async (req, res) => {
     await newMatrix.save();
 
     console.log("New timeslot saved:", newMatrix);
-    res.redirect('/submitAvailability');
+    res.redirect('/schedule');
   } catch (err) {
     console.error(err);
-    res.redirect('/submitAvailability');
+    res.redirect('/schedule');
   }
 });
 
@@ -273,7 +250,7 @@ app.post('/MondayEvening', async (req, res) => {
     // If the matrix is found, it means the timeslot is already booked
     if (existingMatrix) {
       console.log("The timeslot is booked already");
-      return res.redirect('/submitAvailability');
+      return res.redirect('/schedule');
     }
 
     // Create a newMatrix instance and add the new timeslot
@@ -293,10 +270,10 @@ app.post('/MondayEvening', async (req, res) => {
     await newMatrix.save();
 
     console.log("New timeslot saved:", newMatrix);
-    res.redirect('/submitAvailability');
+    res.redirect('/schedule');
   } catch (err) {
     console.error(err);
-    res.redirect('/submitAvailability');
+    res.redirect('/schedule');
   }
 });
 
@@ -315,7 +292,7 @@ app.post('/TuesdayMorning', async (req, res) => {
     // If the matrix is found, it means the timeslot is already booked
     if (existingMatrix) {
       console.log("The timeslot is booked already");
-      return res.redirect('/submitAvailability');
+      return res.redirect('/schedule');
     }
 
     // Create a newMatrix instance and add the new timeslot
@@ -335,10 +312,10 @@ app.post('/TuesdayMorning', async (req, res) => {
     await newMatrix.save();
 
     console.log("New timeslot saved:", newMatrix);
-    res.redirect('/submitAvailability');
+    res.redirect('/schedule');
   } catch (err) {
     console.error(err);
-    res.redirect('/submitAvailability');
+    res.redirect('/schedule');
   }
 });
 
@@ -352,7 +329,7 @@ app.post('/TuesdayAfternoon', async (req, res) => {
     // If the matrix is found, it means the timeslot is already booked
     if (existingMatrix) {
       console.log("The timeslot is booked already");
-      return res.redirect('/submitAvailability');
+      return res.redirect('/schedule');
     }
 
     // Create a newMatrix instance and add the new timeslot
@@ -372,10 +349,10 @@ app.post('/TuesdayAfternoon', async (req, res) => {
     await newMatrix.save();
 
     console.log("New timeslot saved:", newMatrix);
-    res.redirect('/submitAvailability');
+    res.redirect('/schedule');
   } catch (err) {
     console.error(err);
-    res.redirect('/submitAvailability');
+    res.redirect('/schedule');
   }
 });
 
@@ -388,7 +365,7 @@ app.post('/TuesdayEvening', async (req, res) => {
     // If the matrix is found, it means the timeslot is already booked
     if (existingMatrix) {
       console.log("The timeslot is booked already");
-      return res.redirect('/submitAvailability');
+      return res.redirect('/schedule');
     }
 
     // Create a newMatrix instance and add the new timeslot
@@ -408,10 +385,10 @@ app.post('/TuesdayEvening', async (req, res) => {
     await newMatrix.save();
 
     console.log("New timeslot saved:", newMatrix);
-    res.redirect('/submitAvailability');
+    res.redirect('/schedule');
   } catch (err) {
     console.error(err);
-    res.redirect('/submitAvailability');
+    res.redirect('/schedule');
   }
 });
 
@@ -430,7 +407,7 @@ app.post('/WednesdayMorning', async (req, res) => {
     // If the matrix is found, it means the timeslot is already booked
     if (existingMatrix) {
       console.log("The timeslot is booked already");
-      return res.redirect('/submitAvailability');
+      return res.redirect('/schedule');
     }
 
     // Create a newMatrix instance and add the new timeslot
@@ -450,10 +427,10 @@ app.post('/WednesdayMorning', async (req, res) => {
     await newMatrix.save();
 
     console.log("New timeslot saved:", newMatrix);
-    res.redirect('/submitAvailability');
+    res.redirect('/schedule');
   } catch (err) {
     console.error(err);
-    res.redirect('/submitAvailability');
+    res.redirect('/schedule');
   }
 });
 
@@ -467,7 +444,7 @@ app.post('/WednesdayAfternoon', async (req, res) => {
     // If the matrix is found, it means the timeslot is already booked
     if (existingMatrix) {
       console.log("The timeslot is booked already");
-      return res.redirect('/submitAvailability');
+      return res.redirect('/schedule');
     }
 
     // Create a newMatrix instance and add the new timeslot
@@ -487,10 +464,10 @@ app.post('/WednesdayAfternoon', async (req, res) => {
     await newMatrix.save();
 
     console.log("New timeslot saved:", newMatrix);
-    res.redirect('/submitAvailability');
+    res.redirect('/schedule');
   } catch (err) {
     console.error(err);
-    res.redirect('/submitAvailability');
+    res.redirect('/schedule');
   }
 });
 
@@ -503,7 +480,7 @@ app.post('/WednesdayEvening', async (req, res) => {
     // If the matrix is found, it means the timeslot is already booked
     if (existingMatrix) {
       console.log("The timeslot is booked already");
-      return res.redirect('/submitAvailability');
+      return res.redirect('/schedule');
     }
 
     // Create a newMatrix instance and add the new timeslot
@@ -523,10 +500,10 @@ app.post('/WednesdayEvening', async (req, res) => {
     await newMatrix.save();
 
     console.log("New timeslot saved:", newMatrix);
-    res.redirect('/submitAvailability');
+    res.redirect('/schedule');
   } catch (err) {
     console.error(err);
-    res.redirect('/submitAvailability');
+    res.redirect('/schedule');
   }
 });
 
@@ -546,7 +523,7 @@ app.post('/ThursdayMorning', async (req, res) => {
     // If the matrix is found, it means the timeslot is already booked
     if (existingMatrix) {
       console.log("The timeslot is booked already");
-      return res.redirect('/submitAvailability');
+      return res.redirect('/schedule');
     }
 
     // Create a newMatrix instance and add the new timeslot
@@ -566,10 +543,10 @@ app.post('/ThursdayMorning', async (req, res) => {
     await newMatrix.save();
 
     console.log("New timeslot saved:", newMatrix);
-    res.redirect('/submitAvailability');
+    res.redirect('/schedule');
   } catch (err) {
     console.error(err);
-    res.redirect('/submitAvailability');
+    res.redirect('/schedule');
   }
 });
 
@@ -583,7 +560,7 @@ app.post('/ThursdayAfternoon', async (req, res) => {
     // If the matrix is found, it means the timeslot is already booked
     if (existingMatrix) {
       console.log("The timeslot is booked already");
-      return res.redirect('/submitAvailability');
+      return res.redirect('/schedule');
     }
 
     // Create a newMatrix instance and add the new timeslot
@@ -603,10 +580,10 @@ app.post('/ThursdayAfternoon', async (req, res) => {
     await newMatrix.save();
 
     console.log("New timeslot saved:", newMatrix);
-    res.redirect('/submitAvailability');
+    res.redirect('/schedule');
   } catch (err) {
     console.error(err);
-    res.redirect('/submitAvailability');
+    res.redirect('/schedule');
   }
 });
 
@@ -619,7 +596,7 @@ app.post('/ThursdayEvening', async (req, res) => {
     // If the matrix is found, it means the timeslot is already booked
     if (existingMatrix) {
       console.log("The timeslot is booked already");
-      return res.redirect('/submitAvailability');
+      return res.redirect('/schedule');
     }
 
     // Create a newMatrix instance and add the new timeslot
@@ -639,10 +616,10 @@ app.post('/ThursdayEvening', async (req, res) => {
     await newMatrix.save();
 
     console.log("New timeslot saved:", newMatrix);
-    res.redirect('/submitAvailability');
+    res.redirect('/schedule');
   } catch (err) {
     console.error(err);
-    res.redirect('/submitAvailability');
+    res.redirect('/schedule');
   }
 });
 
@@ -660,7 +637,7 @@ app.post('/FridayMorning', async (req, res) => {
     // If the matrix is found, it means the timeslot is already booked
     if (existingMatrix) {
       console.log("The timeslot is booked already");
-      return res.redirect('/submitAvailability');
+      return res.redirect('/schedule');
     }
 
     // Create a newMatrix instance and add the new timeslot
@@ -680,10 +657,10 @@ app.post('/FridayMorning', async (req, res) => {
     await newMatrix.save();
 
     console.log("New timeslot saved:", newMatrix);
-    res.redirect('/submitAvailability');
+    res.redirect('/schedule');
   } catch (err) {
     console.error(err);
-    res.redirect('/submitAvailability');
+    res.redirect('/schedule');
   }
 });
 
@@ -697,7 +674,7 @@ app.post('/FrisdayAfternoon', async (req, res) => {
     // If the matrix is found, it means the timeslot is already booked
     if (existingMatrix) {
       console.log("The timeslot is booked already");
-      return res.redirect('/submitAvailability');
+      return res.redirect('/schedule');
     }
 
     // Create a newMatrix instance and add the new timeslot
@@ -717,10 +694,10 @@ app.post('/FrisdayAfternoon', async (req, res) => {
     await newMatrix.save();
 
     console.log("New timeslot saved:", newMatrix);
-    res.redirect('/submitAvailability');
+    res.redirect('/schedule');
   } catch (err) {
     console.error(err);
-    res.redirect('/submitAvailability');
+    res.redirect('/schedule');
   }
 });
 
@@ -733,7 +710,7 @@ app.post('/FridayEvening', async (req, res) => {
     // If the matrix is found, it means the timeslot is already booked
     if (existingMatrix) {
       console.log("The timeslot is booked already");
-      return res.redirect('/submitAvailability');
+      return res.redirect('/schedule');
     }
 
     // Create a newMatrix instance and add the new timeslot
@@ -753,10 +730,10 @@ app.post('/FridayEvening', async (req, res) => {
     await newMatrix.save();
 
     console.log("New timeslot saved:", newMatrix);
-    res.redirect('/submitAvailability');
+    res.redirect('/schedule');
   } catch (err) {
     console.error(err);
-    res.redirect('/submitAvailability');
+    res.redirect('/schedule');
   }
 });
 
@@ -766,20 +743,20 @@ app.post('/FridayEvening', async (req, res) => {
 
 app.post('/emptyTimeslot/:day', async (req, res) => {
   try {
-    // console.log('Before setting bookedBy to null:', matrixToUpdate.matrix[timeslotIndex][0].bookedBy);
     const dayToEmpty = req.params.day;
 
-      // Find the matrix that corresponds to the desired day
-      const matrixToUpdate = await Matrix.findOne({ "matrix": { $elemMatch: { '0.day': dayToEmpty } } });
 
+    console.log('Day to empty:', dayToEmpty);
+    const matrixBeforeUpdate = await Matrix.findOne({ "matrix.0.day": dayToEmpty });
+    console.log('Matrix before update:', matrixBeforeUpdate);
 
-      if (!matrixToUpdate) {
+      if (!matrixBeforeUpdate) {
         console.log("Matrix not found for the specified day");
         return res.redirect('/manager');
       }
   
         // Find the index of the timeslot within the matrix
-    const timeslotIndex = matrixToUpdate.matrix.findIndex(
+    const timeslotIndex = matrixBeforeUpdate.matrix.findIndex(
       timeslot => timeslot[0].day === dayToEmpty
     );
 
@@ -789,20 +766,70 @@ app.post('/emptyTimeslot/:day', async (req, res) => {
     }
 
     // Update the isBooked property to false
-    matrixToUpdate.matrix[timeslotIndex][0].isBooked = false;
-    // matrixToUpdate.matrix[timeslotIndex][0].bookedBy = null;
+      // Update the existing matrix directly using positional operator $
+    await Matrix.updateOne(
+      { "matrix.0.day": dayToEmpty },
+      {
+        $set: {
+          "matrix.$.0.isBooked": false,
+          "matrix.$.0.bookedBy": null,
+        },
+      }
+    );
+
 
     // Save the updated matrix
-    await matrixToUpdate.save();
+    const matrixAfterUpdate = await Matrix.findOne({ "matrix.0.day": dayToEmpty });
+    console.log('Matrix after update:', matrixAfterUpdate);
 
     console.log(`Empty the timeslot for ${dayToEmpty}`);
-    // console.log('After setting bookedBy to null:', matrixToUpdate.matrix[timeslotIndex][0].bookedBy);
     res.redirect('/manager');
   } catch (err) {
     console.error(err);
     res.redirect('/manager');
   }
 });
+
+
+
+app.post('/assignEmployee/:day', async (req, res) => {
+  try {
+    const dayToAssign = req.params.day;
+    const selectedEmployee = req.body.employeeSelect;
+
+    if (!selectedEmployee) {
+      console.log('Invalid selected employee');
+      return res.redirect('/manager');
+    }
+
+    console.log('Day to assign:', dayToAssign);
+    const matrixBeforeUpdate = await Matrix.findOne({ "matrix.0.day": dayToAssign });
+    console.log('Matrix before update:', matrixBeforeUpdate);
+
+
+    // Update the existing matrix directly using positional operator $
+    await Matrix.updateOne(
+      { "matrix.0.day": dayToAssign },
+      {
+        $set: {
+          "matrix.$.0.isBooked": true,
+          "matrix.$.0.bookedBy": selectedEmployee,
+        },
+      }
+    );
+
+    const matrixAfterUpdate = await Matrix.findOne({ "matrix.0.day": dayToAssign });
+    console.log('Matrix after update:', matrixAfterUpdate);
+
+    console.log(`Assign ${selectedEmployee} the timeslot for ${dayToAssign}`);
+    res.redirect('/manager');
+  } catch (err) {
+    console.error(err);
+    res.redirect('/manager');
+  }
+});
+
+
 
 
 
@@ -828,9 +855,10 @@ app.get('/manager', async(req, res) => {
     try {
       // Fetch all data from the Matrix collection
       const allMatrixData = await Matrix.find();
+      const allEmployeeData = await User.find();
   
       // Render manager.ejs and pass the data as a variable
-      res.render('manager', { matrixData: allMatrixData });
+      res.render('manager', { matrixData: allMatrixData, employeeData: allEmployeeData });
     } catch (err) {
       console.error(err);
       res.status(500).send('Internal Server Error');
