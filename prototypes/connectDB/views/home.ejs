@@ -22,7 +22,7 @@
       </div>
       <nav>
         <a href="/home">Home</a>
-        <a href="/submitAvailability">Schedule</a>
+        <a href="/schedule">Schedule</a>
         <a href="/about">About</a>
         <a href="/contact">Contact</a>
       </nav>
@@ -46,9 +46,15 @@
 
     <div class="text-section">
       <div class="text-content">
-        <h1>Welcome to the Workforce Scheduler</h1><br>
-        <h2>Generate your schedule here!</h2><br>
-        <button class="btn btn-primary btn-lg" onclick="openPopup('signup-popup')">Get Started</button>
+          <h1>Welcome to the Workforce Scheduler</h1><br>
+          <h2>Explore our scheduling app for free!</h2><br>
+          <% if (!user) { %>
+            <p class="input-field">
+              <button class="btn btn-primary btn-lg" onclick="openPopup('signup-popup')">Get Started</button>
+            </p>
+            <% }else { %> %>
+          <a href="/schedule" class="btn btn-primary btn-lg">Get Started</a>
+          <% } %>
       </div>
       <img src="images/schedule.jpg" alt="Image">
     </div>
