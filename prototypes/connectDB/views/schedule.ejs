@@ -101,11 +101,235 @@
     <form action="/FridayEvening" method = "POST">
       <button type="submit">Friday <br>15:00 - 18:00</button></form>
   </div>
-
-  
 </div>
 </div>
 
+
+<h3>Booked Schedule </h3>
+
+<% if (matrixData && matrixData.length > 0) { %>
+
+  <table class="table table-bordered">
+    <thead>
+      <tr>
+        <th scope="col"></th>
+        <th scope="col">Monday</th>
+        <th scope="col">Tuesday</th>
+        <th scope="col">Wednesday</th>
+        <th scope="col">Thursday</th>
+        <th scope="col">Friday</th>
+      </tr>
+    </thead>
+    <tbody>
+      <tr> 
+        <th scope="row">Morning <br> 9:00 - 12:00</th>
+        
+        <!--////////////////////////MONDAY MORNING////////////////////////-->
+        <td>
+          <% matrixData.forEach(matrix => { %>
+            <% matrix.matrix.forEach(timeslot => { %>
+              <% if (timeslot[0].day === "MondayMorning") { %>
+                <% if (timeslot[0].isBooked) { %>
+                  <%= timeslot[0].bookedBy %>
+                <% } %>
+              <% } %>
+            <% }); %>
+          <% }); %>
+        </td>
+        <!--////////////////////////TUESDAY MORNING////////////////////////-->
+        <td>
+          <% matrixData.forEach(matrix => { %>
+            <% matrix.matrix.forEach(timeslot => { %>
+              <% if (timeslot[0].day === "TuesdayMorning") { %>
+                <% if (timeslot[0].isBooked) { %>
+                  <%= timeslot[0].bookedBy %>
+                <% } %>
+              <% } %>
+            <% }); %>
+          <% }); %>
+        </td>
+
+        <!--////////////////////////WEDNESDAY MORNING////////////////////////-->
+
+        <td>
+          <% matrixData.forEach(matrix => { %>
+            <% matrix.matrix.forEach(timeslot => { %>
+              <% if (timeslot[0].day === "WednesdayMorning") { %>
+                <% if (timeslot[0].isBooked) { %>
+                  <%= timeslot[0].bookedBy %>
+                <% } %>
+              <% } %>
+            <% }); %>
+          <% }); %>
+        </td>
+
+        <!--////////////////////////THURSDAY MORNING////////////////////////-->
+        <td>
+          <% matrixData.forEach(matrix => { %>
+            <% matrix.matrix.forEach(timeslot => { %>
+              <% if (timeslot[0].day === "ThursdayMorning") { %>
+                <% if (timeslot[0].isBooked) { %>
+                  <%= timeslot[0].bookedBy %>
+                <% } %>
+              <% } %>
+            <% }); %>
+          <% }); %>
+        </td>
+
+
+        <!--////////////////////////FRIDAY MORNING////////////////////////-->
+        <td>
+          <% matrixData.forEach(matrix => { %>
+            <% matrix.matrix.forEach(timeslot => { %>
+              <% if (timeslot[0].day === "FridayMorning") { %>
+                <% if (timeslot[0].isBooked) { %>
+                  <%= timeslot[0].bookedBy %>
+                <% } %>
+              <% } %>
+            <% }); %>
+          <% }); %>
+        </td>
+
+
+        <tr>
+          <th scope="row">Afternoon <br> 12:00 - 3:00 </th>
+
+         <!--////////////////////////MONDAY AFTERNOON////////////////////////-->
+         <td>
+          <% matrixData.forEach(matrix => { %>
+            <% matrix.matrix.forEach(timeslot => { %>
+              <% if (timeslot[0].day === "MondayAfternoon") { %>
+                <% if (timeslot[0].isBooked) { %>
+                  <%= timeslot[0].bookedBy %>
+                <% } %>
+              <% } %>
+            <% }); %>
+          <% }); %>
+        </td>
+         <!--////////////////////////TUESDAY AFTERNOON////////////////////////-->
+         <td>
+          <% matrixData.forEach(matrix => { %>
+            <% matrix.matrix.forEach(timeslot => { %>
+              <% if (timeslot[0].day === "TuesdayAfternoon") { %>
+                <% if (timeslot[0].isBooked) { %>
+                  <%= timeslot[0].bookedBy %>
+                <% } %>
+              <% } %>
+            <% }); %>
+          <% }); %>
+        </td>
+
+         <!--////////////////////////WEDNESDAY AFTERNOON////////////////////////-->
+         <td>
+          <% matrixData.forEach(matrix => { %>
+            <% matrix.matrix.forEach(timeslot => { %>
+              <% if (timeslot[0].day === "WednesdayAfternoon") { %>
+                <% if (timeslot[0].isBooked) { %>
+                  <%= timeslot[0].bookedBy %>
+                <% } %>
+              <% } %>
+            <% }); %>
+          <% }); %>
+        </td>
+
+         <!--////////////////////////THURSDAY AFTERNOON////////////////////////-->
+         <td>
+          <% matrixData.forEach(matrix => { %>
+            <% matrix.matrix.forEach(timeslot => { %>
+              <% if (timeslot[0].day === "ThursdayAfternoon") { %>
+                <% if (timeslot[0].isBooked) { %>
+                  <%= timeslot[0].bookedBy %>
+                <% } %>
+              <% } %>
+            <% }); %>
+          <% }); %>
+        </td>
+
+        <!--////////////////////////FRIDAY AFTERNOON////////////////////////-->
+        <td>
+          <% matrixData.forEach(matrix => { %>
+            <% matrix.matrix.forEach(timeslot => { %>
+              <% if (timeslot[0].day === "FrisdayAfternoon") { %>
+                <% if (timeslot[0].isBooked) { %>
+                  <%= timeslot[0].bookedBy %>
+                <% } %>
+              <% } %>
+            <% }); %>
+          <% }); %>
+        </td>
+        </tr>
+
+        <tr>
+          <th scope="row">Evening <br> 3:00 - 6:00</th>
+
+        <!--////////////////////////MONDAY EVENING////////////////////////-->
+        <td>
+          <% matrixData.forEach(matrix => { %>
+            <% matrix.matrix.forEach(timeslot => { %>
+              <% if (timeslot[0].day === "MondayEvening") { %>
+                <% if (timeslot[0].isBooked) { %>
+                  <%= timeslot[0].bookedBy %>
+                <% } %>
+              <% } %>
+            <% }); %>
+          <% }); %>
+        </td>
+
+        <!--////////////////////////TUESDAY EVENING////////////////////////-->
+        <td>
+          <% matrixData.forEach(matrix => { %>
+            <% matrix.matrix.forEach(timeslot => { %>
+              <% if (timeslot[0].day === "TuesdayEvening") { %>
+                <% if (timeslot[0].isBooked) { %>
+                  <%= timeslot[0].bookedBy %>
+                <% } %>
+              <% } %>
+            <% }); %>
+          <% }); %>
+        </td>
+        <!--////////////////////////WEDNESDAY EVENING////////////////////////-->
+        <td>
+          <% matrixData.forEach(matrix => { %>
+            <% matrix.matrix.forEach(timeslot => { %>
+              <% if (timeslot[0].day === "WednesdayEvening") { %>
+                <% if (timeslot[0].isBooked) { %>
+                  <%= timeslot[0].bookedBy %>
+                <% } %>
+              <% } %>
+            <% }); %>
+          <% }); %>
+        </td>
+        <!--////////////////////////THURSDAY EVENING////////////////////////-->
+        <td>
+          <% matrixData.forEach(matrix => { %>
+            <% matrix.matrix.forEach(timeslot => { %>
+              <% if (timeslot[0].day === "ThursdayEvening") { %>
+                <% if (timeslot[0].isBooked) { %>
+                  <%= timeslot[0].bookedBy %>
+                <% } %>
+              <% } %>
+            <% }); %>
+          <% }); %>
+        </td>
+         <!--////////////////////////FRIDAY EVENING////////////////////////-->
+         <td>
+          <% matrixData.forEach(matrix => { %>
+            <% matrix.matrix.forEach(timeslot => { %>
+              <% if (timeslot[0].day === "FridayEvening") { %>
+                <% if (timeslot[0].isBooked) { %>
+                  <%= timeslot[0].bookedBy %>
+                <% } %>
+              <% } %>
+            <% }); %>
+          <% }); %>
+        </td>
+        </tr>
+    </tbody>
+  </table>
+<% } %>
+
+<br>
+<br>
 
 
 
