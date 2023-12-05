@@ -3,9 +3,9 @@ ENSE 374 Software Engineering Management
 
 
 ## Team Members
-Sophia Pasha
-Ememobong Umoh
-Seonyu Park
+Sophia Pasha <br />
+Ememobong Umoh <br />
+Seonyu Park <br />
 
 
 ## Table of Contents
