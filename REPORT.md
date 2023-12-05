@@ -12,10 +12,10 @@ Seonyu Park <br />
 1. Introduction
 2. Design Problem <br />
    2.1 Problem Definition <br />
-   2.2 Design Requirements <br />
-     2.2.1 Functions <br />
-     2.2.2 Objectives <br />
-     2.2.3 Constraitns <br />
+   2.2 Design Requirements <br  />
+     2.2.1 Functions <br  />
+     2.2.2 Objectives <br  />
+     2.2.3 Constraitns <br  />
 3. Solution
    3.1 Solution 1
    3.2 Solution 2
