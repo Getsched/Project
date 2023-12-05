@@ -10,12 +10,12 @@ Seonyu Park <br />
 
 ## Table of Contents
 1. Introduction
-2. Design Problem
-   2.1 Problem Definition
-   2.2 Design Requirements
-     2.2.1 Functions
-     2.2.2 Objectives
-     2.2.3 Constraitns
+2. Design Problem <br />
+   2.1 Problem Definition <br />
+   2.2 Design Requirements <br />
+     2.2.1 Functions <br />
+     2.2.2 Objectives <br />
+     2.2.3 Constraitns <br />
 3. Solution
    3.1 Solution 1
    3.2 Solution 2
