@@ -24,11 +24,11 @@ Seonyu Park <br />
     - 3.3.2 Features <br />
     - 3.3.3 Environmental, Societal, Safety and Economic Considerations<br />
     - 3.3.4 Limitations<br />
-4. Team Work
-   4.1 Meeting 1
-   4.2 Meeting 2
-   4.3 Meeting 3
-   4.4 Meeting 4
+4. Team Work <br />
+   4.1 Meeting 1 <br />
+   4.2 Meeting 2 <br />
+   4.3 Meeting 3 <br />
+   4.4 Meeting 4 <br />
 5. Project Management
 6. Conclusion and Future Work
 7. References
