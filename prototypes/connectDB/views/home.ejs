@@ -26,6 +26,10 @@
         <a href="/about">About</a>
         <a href="/contact">Contact</a>
       </nav>
+
+  //if user is not logged in, the page shows the login and signup buttons
+  //else if user is logged in, the page shows the logout button
+
       <div class="auth-buttons">
         <% if (!user) { %>
         <p class="input-field">
@@ -48,6 +52,10 @@
       <div class="text-content">
           <h1>Welcome to the Workforce Scheduler</h1><br>
           <h2>Explore our scheduling app for free!</h2><br>
+
+  //if user is not logged in, the "Get Started" button makes the sign up form pop up
+  //if user is logged in, the "Get Started" button leads to the schedule page
+
           <% if (!user) { %>
             <p class="input-field">
               <button class="btn btn-primary btn-lg" onclick="openPopup('signup-popup')">Get Started</button>
@@ -60,6 +68,7 @@
     </div>
   </div>
 
+  //Sign up form pop up 
   <div class="overlay" id="signup-popup" onclick="closePopup('signup-popup')">
     <div class="popup-container" onclick="event.stopPropagation();">
       <span class="close-button" onclick="closePopup('signup-popup')">x</span>
@@ -100,6 +109,7 @@
     </div>
   </div>
 
+  //login form pop up
   <div class="overlay" id="login-popup" onclick="closePopup('login-popup')">
     <div class="popup-container" onclick="event.stopPropagation();">
       <span class="close-button" onclick="closePopup('login-popup')">X</span>
