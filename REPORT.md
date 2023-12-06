@@ -37,8 +37,9 @@ Seonyu Park <br />
 ## List of Figures
 ## List of Tables
 
-### 1. Introduction
-
+### 1. Introduction <br />
+Employers are responsible for managing their employees' schedules efficiently to ensure high-quality production output. However, the ever-changing nature of employment makes it difficult for employers to maintain real-time communication and update all the necessary information at once. Recognizing the need for a more efficient and user-friendly solution, we present our innovative web-based software application. Our software is An advanced scheduling tool designed to empower employers and employees. This application revolutionizes traditional scheduling methods, allowing employees to actively manage their schedules while relieving employers of the burdensome task of manually coordinating every job. Numerous scheduling software products are available in the market, but most impose user restrictions and charge a monthly subscription fee of up to $60.<br />
+In contrast, our solution offers a comprehensive platform without the excessive costs associated with restricted user access. It makes it an ideal choice for businesses of all sizes, ensuring accessibility to a broader spectrum of users. In the subsequent sections, we will delve deeper into our scheduling application's key features and benefits, illustrating how it addresses the challenges posed by dynamic schedules and enhances overall workforce management.
 ### 2. Design Problem
 
 ### 3. Solution
