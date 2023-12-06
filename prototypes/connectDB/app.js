@@ -24,7 +24,7 @@ app.use(passport.session());
 
 app.set("view engine", "ejs");
 
-
+//connect to database and create schemas
 mongoose.connect('mongodb://localhost/workforce_scheduler',
   { useNewUrlParser: true, useUnifiedTopology: true });
 
@@ -95,7 +95,8 @@ app.get("/contact", (req, res) => {
   res.render("contact", { user });
 });
 
-
+//login route
+//authenticates user using passport
 app.post('/login', async(req, res) => {
   
   const user = new User({
@@ -128,6 +129,9 @@ app.post('/login', async(req, res) => {
   })
 });
 
+//register route
+//user password is salted and hashed by passport
+//managers and employees are given access to different pages
 app.post('/register', (req, res) => {
   const { authentication } = req.body;
 
@@ -150,7 +154,7 @@ app.post('/register', (req, res) => {
   }
 });
 
-
+//schedule route
 app.get('/schedule', async (req, res) => {
   if (req.isAuthenticated()) {
     try {
@@ -736,8 +740,6 @@ app.post('/FridayEvening', async (req, res) => {
     res.redirect('/schedule');
   }
 });
-
-
 
 
 
