@@ -46,6 +46,98 @@ Seonyu Park <br />
 ### 3. Solution
 
 ### 4. Team Work
+> Table 1: Week 1 Meeting
+> 
+> | Team Member | Previous Task | Completion State | Next Task |
+> |-------------|---------------|------------------|-----------|
+> | Ememobong   |               |                  |           |
+> | Seonyu      |               |                  |           |
+> | Sophia      |               |                  |           |
+>
+> 
+> Table 2: Week 2 Meeting
+> | Team Member | Previous Task | Completion State | Next Task |
+> |-------------|---------------|------------------|-----------|
+> | Ememobong   |               |                  |           |
+> | Seonyu      |               |                  |           |
+> | Sophia      |               |                  |           |
+>
+> Table 3: Week 3 Meeting
+> | Team Member | Previous Task | Completion State | Next Task |
+> |-------------|---------------|------------------|-----------|
+> | Ememobong   |               |                  |           |
+> | Seonyu      |               |                  |           |
+> | Sophia      |               |                  |           |
+>
+> Table 4: Week 4 Meeting
+> | Team Member | Previous Task | Completion State | Next Task |
+> |-------------|---------------|------------------|-----------|
+> | Ememobong   |               |                  |           |
+> | Seonyu      |               |                  |           |
+> | Sophia      |               |                  |           |
+>
+> Table 5: Week 5 Meeting
+> | Team Member | Previous Task | Completion State | Next Task |
+> |-------------|---------------|------------------|-----------|
+> | Ememobong   |               |                  |           |
+> | Seonyu      |               |                  |           |
+> | Sophia      |               |                  |           |
+>
+> Table 6: Week 6 Meeting
+> | Team Member | Previous Task | Completion State | Next Task |
+> |-------------|---------------|------------------|-----------|
+> | Ememobong   |               |                  |           |
+> | Seonyu      |               |                  |           |
+> | Sophia      |               |                  |           |
+>
+> Table 7: Week 7 Meeting
+> | Team Member | Previous Task | Completion State | Next Task |
+> |-------------|---------------|------------------|-----------|
+> | Ememobong   |               |                  |           |
+> | Seonyu      |               |                  |           |
+> | Sophia      |               |                  |           |
+>
+> Table 8: Week 8 Meeting
+> | Team Member | Previous Task | Completion State | Next Task |
+> |-------------|---------------|------------------|-----------|
+> | Ememobong   |               |                  |           |
+> | Seonyu      |               |                  |           |
+> | Sophia      |               |                  |           |
+>
+> Table 9: Week 9 Meeting
+> | Team Member | Previous Task | Completion State | Next Task |
+> |-------------|---------------|------------------|-----------|
+> | Ememobong   |               |                  |           |
+> | Seonyu      |               |                  |           |
+> | Sophia      |               |                  |           |
+>
+> Table 10: Week 10 Meeting
+> | Team Member | Previous Task | Completion State | Next Task |
+> |-------------|---------------|------------------|-----------|
+> | Ememobong   |               |                  |           |
+> | Seonyu      |               |                  |           |
+> | Sophia      |               |                  |           |
+>
+> Table 11: Week 11 Meeting
+> | Team Member | Previous Task | Completion State | Next Task |
+> |-------------|---------------|------------------|-----------|
+> | Ememobong   |               |                  |           |
+> | Seonyu      |               |                  |           |
+> | Sophia      |               |                  |           |
+>
+> Table 12: Week 12 Meeting
+> | Team Member | Previous Task | Completion State | Next Task |
+> |-------------|---------------|------------------|-----------|
+> | Ememobong   |               |                  |           |
+> | Seonyu      |               |                  |           |
+> | Sophia      |               |                  |           |
+>
+> Table 13: Week 13 Meeting
+> | Team Member | Previous Task | Completion State | Next Task |
+> |-------------|---------------|------------------|-----------|
+> | Ememobong   |               |                  |           |
+> | Seonyu      |               |                  |           |
+> | Sophia      |               |                  |           |
 
 ### 5. Project Management
 
