@@ -147,11 +147,11 @@ Seonyu Park <br />
 >| Sophia      |                                   |                  |                                    |
 > 
 > Table 9: Week 9 Meeting
-> | Team Member | Previous Task | Completion State | Next Task |
-> |-------------|---------------|------------------|-----------|
-> | Ememobong   |               |                  |           |
-> | Seonyu      |               |                  |           |
-> | Sophia      |               |                  |           |
+>| Team Member | Previous Task                       | Completion State | Next Task                       |
+>|-------------|-------------------------------------|------------------|---------------------------------|
+>| Ememobong   |                                     |                  |                                 |
+>| Seonyu      | Finalized High-Fidelity Prototyping | 100%             | Deliver High-Fidelity Prototype |
+>| Sophia      |                                     |                  |                                 |
 >
 > Table 10: Week 10 Meeting
 > | Team Member | Previous Task | Completion State | Next Task |
