@@ -175,12 +175,12 @@ Seonyu Park <br />
 >| Sophia      |                                                                                                |                  |                                     |
 >
 > Table 13: Week 13 Meeting
-> | Team Member | Previous Task | Completion State | Next Task |
-> |-------------|---------------|------------------|-----------|
-> | Ememobong   |               |                  |           |
-> | Seonyu      |               |                  |           |
-> | Sophia      |               |                  |           |
-
+>| Team Member | Previous Task                                                                                    | Completion State     | Next Task |
+>|-------------|--------------------------------------------------------------------------------------------------|----------------------|-----------|
+>| Ememobong   |                                                                                                  |                      |           |
+>| Seonyu      | Finalized the MVC prototype<br>Delivered the MVC prototype<br>Finalized the Documents and report | 100%<br>100%<br>100% |           |
+>| Sophia      |                                                                                                  |                      |           |
+> 
 ### 5. Project Management
 >Figure 1: Gantt Chart
 ><img width="832" alt="gantt_chart1" src="https://github.com/Getsched/WorkFlow/assets/133157186/9c63f80f-233c-4cde-9153-51de3619f23e">
