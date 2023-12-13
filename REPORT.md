@@ -133,12 +133,12 @@ Seonyu Park <br />
 >| Sophia      |                                                                                                                        |                      |                               |
 >
 > Table 7: Week 7 Meeting
-> | Team Member | Previous Task | Completion State | Next Task |
-> |-------------|---------------|------------------|-----------|
-> | Ememobong   |               |                  |           |
-> | Seonyu      |               |                  |           |
-> | Sophia      |               |                  |           |
->
+>| Team Member | Previous Task                  | Completion State | Next Task                 |
+>|-------------|--------------------------------|------------------|---------------------------|
+>| Ememobong   |                                |                  |                           |
+>| Seonyu      | Updated Low-Fidelity Prototype | 100%             | High-Fidelity Prototyping |
+>| Sophia      |                                |                  |                           |
+> 
 > Table 8: Week 8 Meeting
 > | Team Member | Previous Task | Completion State | Next Task |
 > |-------------|---------------|------------------|-----------|
