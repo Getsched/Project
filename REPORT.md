@@ -69,6 +69,10 @@ Seonyu Park <br />
 > 4. Manage Shift (Employers Only): <br />
 > Employers can add or drop selected employees from specific shifts, facilitating efficient workforce management.
 > 
+> **2.2.2 Objective** <br />
+> Employees can choose and view their shifts for the week. <br />
+> Managers can add or drop employees from a shift. <br />
+> Managers can view the entire schedule and share it with all employees. <br />
 
 ### 3. Solution
 
