@@ -99,11 +99,11 @@ Seonyu Park <br />
 >
 > 
 > Table 2: Week 2 Meeting
-> | Team Member | Previous Task | Completion State | Next Task |
-> |-------------|---------------|------------------|-----------|
-> | Ememobong   |               |                  |           |
-> | Seonyu      |               |                  |           |
-> | Sophia      |               |                  |           |
+> | Team Member | Previous Task                                                    | Completion State     | Next Task              |
+>|-------------|------------------------------------------------------------------|----------------------|------------------------|
+>| Ememobong   |                                                                  |                      |                        |
+>| Seonyu      | Problem Definition<br>Created Gantt Chart<br>Made Discord Server | 100%<br>100%<br>100% | Creating Business Case |
+>| Sophia      |                                                                  |                      |                        |
 >
 > Table 3: Week 3 Meeting
 > | Team Member | Previous Task | Completion State | Next Task |
