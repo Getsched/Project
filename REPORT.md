@@ -161,12 +161,12 @@ Seonyu Park <br />
 >| Sophia      |                                                                                  |                  |                  |
 > 
 > Table 11: Week 11 Meeting
-> | Team Member | Previous Task | Completion State | Next Task |
-> |-------------|---------------|------------------|-----------|
-> | Ememobong   |               |                  |           |
-> | Seonyu      |               |                  |           |
-> | Sophia      |               |                  |           |
->
+>| Team Member | Previous Task                                   | Completion State | Next Task               |
+>|-------------|-------------------------------------------------|------------------|-------------------------|
+>| Ememobong   |                                                 |                  |                         |
+>| Seonyu      | Delivered static prototype (only html and css)  | 100%             | Implement MVC prototype |
+>| Sophia      |                                                 |                  |                         |
+> 
 > Table 12: Week 12 Meeting
 > | Team Member | Previous Task | Completion State | Next Task |
 > |-------------|---------------|------------------|-----------|
