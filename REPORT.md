@@ -43,11 +43,11 @@ Seonyu Park <br />
 
 
 ## List of Figures
-[1. Figure 1]
-[2. Figure 2]
-[3. Figure 3]
-[4. Figure 4]
-[5. Figure 5]
+[1. Figure 1](https://github.com/Getsched/WorkFlow/blob/main/REPORT.md#figure-1-solution-1)  
+[2. Figure 2](https://github.com/Getsched/WorkFlow/blob/main/REPORT.md#figure-2-solution-2)  
+[3. Figure 3](https://github.com/Getsched/WorkFlow/blob/main/REPORT.md#figure-3-solution-3)  
+[4. Figure 4](https://github.com/Getsched/WorkFlow/blob/main/REPORT.md#figure-4-gantt-chart)  
+[5. Figure 5](https://github.com/Getsched/WorkFlow/blob/main/REPORT.md#figure-5-gantt-chart)  
 
 ## List of Tables
 [1. Table 1](https://github.com/Getsched/WorkFlow/blob/main/REPORT.md#table-1-week-1-meeting)  
