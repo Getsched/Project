@@ -70,9 +70,9 @@ Seonyu Park <br />
 > Employers can add or drop selected employees from specific shifts, facilitating efficient workforce management.
 > 
 > **2.2.2 Objective** <br />
-> Employees can choose and view their shifts for the week. <br />
-> Managers can add or drop employees from a shift. <br />
-> Managers can view the entire schedule and share it with all employees. <br />
+> 1. Employees can choose and view their shifts for the week. <br />
+> 2. Managers can add or drop employees from a shift. <br />
+> 3. Managers can view the entire schedule and share it with all employees. <br />
 
 ### 3. Solution
 
