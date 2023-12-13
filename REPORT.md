@@ -138,7 +138,7 @@ Seonyu Park <br />
 >|-------------|------------------------------------------------------------------|----------------------|------------------------|
 >| Ememobong   |                                                                  |                      |                        |
 >| Seonyu      | Problem Definition<br>Created Gantt Chart<br>Made Discord Server | 100%<br>100%<br>100% | Creating Business Case |
->| Sophia      |                                                                  |                      |                        |
+>| Sophia      | Make notes about implementation plan and the plan for each sprint| 100%                 | Create Business Case       |
 >
 #### Table 3: Week 3 Meeting
 >| Team Member | Previous Task                 | Completion State | Next Task                                              |
