@@ -51,26 +51,24 @@ Seonyu Park <br />
 >
 > In contrast, our solution offers a comprehensive platform without the excessive costs associated with restricted user access. It makes it an ideal choice for businesses of all sizes, ensuring accessibility to a broader spectrum of users. In the subsequent sections, we will delve deeper into our scheduling application's key features and benefits, illustrating how it addresses the challenges posed by dynamic schedules and enhances overall workforce management.
 ### 2. Design Problem
-> 2.1 Problem Definition <br />
+> **2.1 Problem Definition** <br />
 >Manually scheduling a workforce presents a significant challenge for employers as it requires them to invest considerable time and resources in creating and updating schedules. Employees also need help managing their schedules and often rely on direct communication with managers to select shifts. Existing scheduling applications in the market, such as Connecteam and Homebase, are costly, limiting accessibility for many businesses. Our project aims to develop an open-source, free workforce scheduling software that streamlines communication between employers and employees. It includes availability submission and adding or dropping shifts to enhance productivity.
 > 
-> 2.2 Design Requirements <br />
+> **2.2 Design Requirements** <br />
 >
-> 2.2.1 Functions <br />
-> 1. **Sign-up:**
+> **2.2.1 Functions** <br />
+> 1. Sign-up:<br />
 > Users can create an account by providing necessary information, including username, email, and password.
 >
-> 2. **Login:**
+> 2. Login:<br />
 > Registered users can securely log in to the system using their credentials, gaining access to the scheduling application.
 >
-> 3. **Submit Availability (Schedule Page):**
+> 3. Submit Availability (in Schedule Page):<br />
 > Employees can submit their availability for different shifts through an intuitive and user-friendly schedule page.
 >
-> 4. **Manage Page (Employers Only):**
+> 4. Manage Shift (Employers Only): <br />
 > Employers can add or drop selected employees from specific shifts, facilitating efficient workforce management.
->    
-> 5. **Edit Shifts (Employers Only):**
-> Employers can modify existing shifts, adjusting schedules based on employee availability and > business requirements.
+> 
 
 ### 3. Solution
 
