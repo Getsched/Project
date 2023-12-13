@@ -166,7 +166,7 @@ Seonyu Park <br />
 >|-------------|------------------------------------------------------------------------------------------------------------------------|----------------------|-------------------------------|
 >| Ememobong   |                                                                                                                        |                      |                               |
 >| Seonyu      | Identified function-related components<br>Sketch interfaces and interaction between components<br>Detailed Gantt Chart | 100%<br>100%<br>100% | Update Low-Fidelity Prototype |
->| Sophia      | Outline the sprints and the tasks for each sprint                                                                      | 100%                 | Low Fidelity Prototyp         |
+>| Sophia      | Outline the sprints and the tasks for each sprint                                                                      | 100%                 | Low Fidelity Prototype        |
 >
 #### Table 7: Week 7 Meeting
 >| Team Member | Previous Task                  | Completion State | Next Task                 |
