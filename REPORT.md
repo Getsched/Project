@@ -9,14 +9,14 @@ Seonyu Park <br />
 
 
 ## Table of Contents
-1. Introduction
+1. Introduction <br />
 2. Design Problem <br />
    2.1 Problem Definition <br />
    2.2 Design Requirements <br  />
     - 2.2.1 Functions <br  />
     - 2.2.2 Objectives <br  />
     - 2.2.3 Constraitns <br  />
-3. Solution
+3. Solution<br />
    3.1 Solution 1 <br />
    3.2 Solution 2 <br />
    3.3 Final Solution <br />
@@ -38,10 +38,10 @@ Seonyu Park <br />
    4.11 Table 11: Week 11 Meeting  <br />
    4.12 Table 12: Week 12 Meeting  <br />
    4.13 Table 13: Week 13 Meeting  <br />
-5. Project Management
-6. Conclusion and Future Work
-7. References
-8. Appendix
+5. Project Management<br />
+6. Conclusion and Future Work<br />
+7. References<br />
+8. Appendix<br />
 
 ## List of Figures
 ## List of Tables
@@ -56,6 +56,21 @@ Seonyu Park <br />
 > 
 > 2.2 Design Requirements <br />
 >
+> 2.2.1 Functions <br />
+> 1. **Sign-up:**
+> Users can create an account by providing necessary information, including username, email, and password.
+>
+> 2. **Login:**
+> Registered users can securely log in to the system using their credentials, gaining access to the scheduling application.
+>
+> 3. **Submit Availability (Schedule Page):**
+> Employees can submit their availability for different shifts through an intuitive and user-friendly schedule page.
+>
+> 4. **Manage Page (Employers Only):**
+> Employers can add or drop selected employees from specific shifts, facilitating efficient workforce management.
+>    
+> 5. **Edit Shifts (Employers Only):**
+> Employers can modify existing shifts, adjusting schedules based on employee availability and > business requirements.
 
 ### 3. Solution
 
