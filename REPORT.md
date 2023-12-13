@@ -87,6 +87,15 @@ Seonyu Park <br />
 > The application allows users to reduce workload and stress. <br />
 
 ### 3. Solution
+> Figure 1: Solution 1
+> <img width="681" alt="solution1" src="https://github.com/Getsched/WorkFlow/assets/133157186/c5cd24d9-55cb-4788-943a-b35288366f3d">
+>
+> Figure 2: Solution 2
+> <img width="714" alt="solution2" src="https://github.com/Getsched/WorkFlow/assets/133157186/53da3b64-7a09-4072-989e-6ec3abd9333e">
+>
+> Figure 3: Solution 3
+> <img width="771" alt="solution3" src="https://github.com/Getsched/WorkFlow/assets/133157186/76fc1cd1-1fdf-49fc-a90d-550ba42b58a4">
+
 
 ### 4. Team Work
 > Table 1: Week 1 Meeting 
