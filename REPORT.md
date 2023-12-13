@@ -119,11 +119,11 @@ Seonyu Park <br />
 >| Sophia      |                          |                  |                                                     |
 >
 > Table 5: Week 5 Meeting
-> | Team Member | Previous Task | Completion State | Next Task |
-> |-------------|---------------|------------------|-----------|
-> | Ememobong   |               |                  |           |
-> | Seonyu      |               |                  |           |
-> | Sophia      |               |                  |           |
+>| Team Member | Previous Task                                       | Completion State | Next Task                |
+>|-------------|-----------------------------------------------------|------------------|--------------------------|
+>| Ememobong   |                                                     |                  |                          |
+>| Seonyu      | Define the functions and objectives of the software | 100%             | Low-Fidelity Prototyping |
+>| Sophia      |                                                     |                  |                          |
 >
 > Table 6: Week 6 Meeting
 > | Team Member | Previous Task | Completion State | Next Task |
