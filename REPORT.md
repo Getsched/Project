@@ -87,14 +87,20 @@ Seonyu Park <br />
 > The application allows users to reduce workload and stress. <br />
 
 ### 3. Solution
-> Figure 1: Solution 1
-> <img width="681" alt="solution1" src="https://github.com/Getsched/WorkFlow/assets/133157186/c5cd24d9-55cb-4788-943a-b35288366f3d">
+> Figure 1: Solution 1<br />
+> <img width="681" alt="solution1" src="https://github.com/Getsched/WorkFlow/assets/133157186/c5cd24d9-55cb-4788-943a-b35288366f3d"> <br />
+> Employees are able to enter their own timings for shifts<br />
+> Does not meet the design requirements of having the manager in control of the shifts<br />
+> 
+> Figure 2: Solution 2 <br />
+> <img width="714" alt="solution2" src="https://github.com/Getsched/WorkFlow/assets/133157186/53da3b64-7a09-4072-989e-6ec3abd9333e"> <br />
+> This solution is better than solution 1, because it gives the employees a limited amount of options that the manager chooses to display <br />
+> However, it still gives the employees the ability to choose the length of their own shifts<br />
+> 
+> Figure 3: Solution 3<br />
+> <img width="771" alt="solution3" src="https://github.com/Getsched/WorkFlow/assets/133157186/76fc1cd1-1fdf-49fc-a90d-550ba42b58a4"><br />
+> This solution is the best one because it has a set number of shifts for each day, and the manager can choose the length of each shift<br />
 >
-> Figure 2: Solution 2
-> <img width="714" alt="solution2" src="https://github.com/Getsched/WorkFlow/assets/133157186/53da3b64-7a09-4072-989e-6ec3abd9333e">
->
-> Figure 3: Solution 3
-> <img width="771" alt="solution3" src="https://github.com/Getsched/WorkFlow/assets/133157186/76fc1cd1-1fdf-49fc-a90d-550ba42b58a4">
 
 
 ### 4. Team Work
