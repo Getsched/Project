@@ -73,6 +73,15 @@ Seonyu Park <br />
 > 1. Employees can choose and view their shifts for the week. <br />
 > 2. Managers can add or drop employees from a shift. <br />
 > 3. Managers can view the entire schedule and share it with all employees. <br />
+>
+> **2.2.3 Constraints** <br />
+> 1. Economic Factors – the application is completely free to use, saving
+on manual supplies<br />
+> 2. Regulatory Compliance – authentication, salting and hashing, and
+authorization <br />
+> 3. Ethics – copyright of photos and logos <br />
+> 4. Sustainability and Environmental Factors – save paper and supplies <br />
+> 5. Societal Impacts – reduces workload and stress <br />
 
 ### 3. Solution
 
