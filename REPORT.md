@@ -201,10 +201,10 @@ Seonyu Park <br />
 >| Sophia      |                                                                                                  |                      |           |
 > 
 ### 5. Project Management
->Figure 1: Gantt Chart
+>Figure 4: Gantt Chart
 ><img width="832" alt="gantt_chart1" src="https://github.com/Getsched/WorkFlow/assets/133157186/9c63f80f-233c-4cde-9153-51de3619f23e">
 >
->Figure 2: Gantt Chart
+>Figure 5: Gantt Chart
 ><img width="1301" alt="gantt_chart2" src="https://github.com/Getsched/WorkFlow/assets/133157186/c2ebb1fc-f8c9-407d-a3bf-d06ef49f1940">
 
 
