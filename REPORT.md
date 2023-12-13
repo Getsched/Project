@@ -154,12 +154,12 @@ Seonyu Park <br />
 >| Sophia      |                                     |                  |                                 |
 >
 > Table 10: Week 10 Meeting
-> | Team Member | Previous Task | Completion State | Next Task |
-> |-------------|---------------|------------------|-----------|
-> | Ememobong   |               |                  |           |
-> | Seonyu      |               |                  |           |
-> | Sophia      |               |                  |           |
->
+>| Team Member | Previous Task                                                                    | Completion State | Next Task                         |
+>|-------------|----------------------------------------------------------------------------------|------------------|-----------------------------------|
+>| Ememobong   |                                                                                  |                  |                                   |
+>| Seonyu      | Delivered High-Fidelity Prototypes<br>Crated and shared .html files with members | 100%<br>100%     | Preparation for the scrum meeting |
+>| Sophia      |                                                                                  |                  |                  |
+> 
 > Table 11: Week 11 Meeting
 > | Team Member | Previous Task | Completion State | Next Task |
 > |-------------|---------------|------------------|-----------|
