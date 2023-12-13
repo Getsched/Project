@@ -70,7 +70,7 @@ Seonyu Park <br />
 >
 > In contrast, our solution offers a comprehensive platform without the excessive costs associated with restricted user access. It makes it an ideal choice for businesses of all sizes, ensuring accessibility to a broader spectrum of users. In the subsequent sections, we will delve deeper into our scheduling application's key features and benefits, illustrating how it addresses the challenges posed by dynamic schedules and enhances overall workforce management.
 ### 2. Design Problem
-> **2.1 Problem Definition** <br />
+> ###2.1 Problem Definition <br />
 >Manually scheduling a workforce presents a significant challenge for employers as it requires them to invest considerable time and resources in creating and updating schedules. Employees also need help managing their schedules and often rely on direct communication with managers to select shifts. Existing scheduling applications in the market, such as Connecteam and Homebase, are costly, limiting accessibility for many businesses. Our project aims to develop an open-source, free workforce scheduling software that streamlines communication between employers and employees. It includes availability submission and adding or dropping shifts to enhance productivity.
 > 
 > **2.2 Design Requirements** <br />
