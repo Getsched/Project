@@ -147,17 +147,17 @@ Seonyu Park <br />
 >| Sophia      |                                   |                  |                                    |
 > 
 > Table 9: Week 9 Meeting
->| Team Member | Previous Task                       | Completion State | Next Task                       |
->|-------------|-------------------------------------|------------------|---------------------------------|
->| Ememobong   |                                     |                  |                                 |
->| Seonyu      | Finalized High-Fidelity Prototyping | 100%             | Deliver High-Fidelity Prototype |
->| Sophia      |                                     |                  |                                 |
+>| Team Member | Previous Task                                                                 | Completion State | Next Task                       |
+>|-------------|-------------------------------------------------------------------------------|------------------|---------------------------------|
+>| Ememobong   |                                                                               |                  |                                 |
+>| Seonyu      | Finalized High-Fidelity Prototyping<br>Shared the prototypes with the members | 100%<br>100%     | Deliver High-Fidelity Prototype |
+>| Sophia      |                                                                               |                  |                                 |
 >
 > Table 10: Week 10 Meeting
 >| Team Member | Previous Task                                                                    | Completion State | Next Task                         |
 >|-------------|----------------------------------------------------------------------------------|------------------|-----------------------------------|
 >| Ememobong   |                                                                                  |                  |                                   |
->| Seonyu      | Delivered High-Fidelity Prototypes<br>Crated and shared .html files with members | 100%<br>100%     | Preparation for the scrum meeting |
+>| Seonyu      | Delivered High-Fidelity Prototypes<br>Created and shared .html files with members | 100%<br>100%     | Preparation for the scrum meeting |
 >| Sophia      |                                                                                  |                  |                  |
 > 
 > Table 11: Week 11 Meeting
