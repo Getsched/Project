@@ -91,11 +91,11 @@ Seonyu Park <br />
 ### 4. Team Work
 > Table 1: Week 1 Meeting
 > 
-> | Team Member | Previous Task | Completion State | Next Task |
-> |-------------|---------------|------------------|-----------|
-> | Ememobong   |               |                  |           |
-> | Seonyu      |               |                  |           |
-> | Sophia      |               |                  |           |
+>| Team Member | Previous Task | Completion State | Next Task                   |
+>|-------------|---------------|------------------|-----------------------------|
+>| Ememobong   |               |                  |                             |
+>| Seonyu      | Brainstroming | 100%             | Creating Problem Definition |
+>| Sophia      |               |                  |                             |
 >
 > 
 > Table 2: Week 2 Meeting
