@@ -140,12 +140,12 @@ Seonyu Park <br />
 >| Sophia      |                                |                  |                           |
 > 
 > Table 8: Week 8 Meeting
-> | Team Member | Previous Task | Completion State | Next Task |
-> |-------------|---------------|------------------|-----------|
-> | Ememobong   |               |                  |           |
-> | Seonyu      |               |                  |           |
-> | Sophia      |               |                  |           |
->
+>| Team Member | Previous Task                     | Completion State | Next Task                          |
+>|-------------|-----------------------------------|------------------|------------------------------------|
+>| Ememobong   |                                   |                  |                                    |
+>| Seonyu      | Started High-Fidelity Prototyping | 100%             | Finalize High-Fidelity Prototyping |
+>| Sophia      |                                   |                  |                                    |
+> 
 > Table 9: Week 9 Meeting
 > | Team Member | Previous Task | Completion State | Next Task |
 > |-------------|---------------|------------------|-----------|
