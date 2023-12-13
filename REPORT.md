@@ -129,8 +129,8 @@ Seonyu Park <br />
 >| Team Member | Previous Task | Completion State | Next Task                   |
 >|-------------|---------------|------------------|-----------------------------|
 >| Ememobong   |               |                  |                             |
->| Seonyu      | Brainstroming | 100%             | Creating Problem Definition |
->| Sophia      |               |                  |                             |
+>| Seonyu      | Brainstorming | 100%             | Creating Problem Definition |
+>| Sophia      | Brainstorming | 100%             | Make notes about implementation plan|
 >
 > 
 #### Table 2: Week 2 Meeting
