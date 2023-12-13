@@ -70,11 +70,10 @@ Seonyu Park <br />
 >
 > In contrast, our solution offers a comprehensive platform without the excessive costs associated with restricted user access. It makes it an ideal choice for businesses of all sizes, ensuring accessibility to a broader spectrum of users. In the subsequent sections, we will delve deeper into our scheduling application's key features and benefits, illustrating how it addresses the challenges posed by dynamic schedules and enhances overall workforce management.
 ### 2. Design Problem
-> ###2.1 Problem Definition <br />
->Manually scheduling a workforce presents a significant challenge for employers as it requires them to invest considerable time and resources in creating and updating schedules. Employees also need help managing their schedules and often rely on direct communication with managers to select shifts. Existing scheduling applications in the market, such as Connecteam and Homebase, are costly, limiting accessibility for many businesses. Our project aims to develop an open-source, free workforce scheduling software that streamlines communication between employers and employees. It includes availability submission and adding or dropping shifts to enhance productivity.
-> 
-> **2.2 Design Requirements** <br />
->
+#### 2.1 Problem Definition <br />
+>Manually scheduling a workforce presents a significant challenge for employers as it requires them to invest considerable time and resources in creating and updating schedules. Employees also need help managing their schedules and often rely on direct communication with managers to select shifts. Existing scheduling applications in the market, such as Connecteam and Homebase, are costly, limiting accessibility for many businesses. Our project aims to develop an open-source, free workforce scheduling software that streamlines communication between employers and employees. It includes availability submission and adding or dropping shifts to enhance productivity.<br />
+
+#### 2.2 Design Requirements <br />
 > **2.2.1 Functions** <br />
 > 1. Sign-up:<br />
 > Users can create an account by providing necessary information, including username, email, and password.
@@ -106,20 +105,20 @@ Seonyu Park <br />
 > The application allows users to reduce workload and stress. <br />
 
 ### 3. Solution
-> Figure 1: Solution 1<br />
+#### Figure 1: Solution 1<br />
 > Employees can enter their own timings for shifts, but this does not align with the design requirements of having the manager in control of the shifts<br />
 >
 > <img width="681" alt="solution1" src="https://github.com/Getsched/WorkFlow/assets/133157186/c5cd24d9-55cb-4788-943a-b35288366f3d"> <br />
 > <br />
 >
 > 
-> Figure 2: Solution 2 <br />
+#### Figure 2: Solution 2 <br />
 > This solution is an improvement over Solution 1 because it provides employees with a limited set of options chosen by the manager. However, it still allows employees the flexibility to choose the length of their shifts.<br />
 > <img width="714" alt="solution2" src="https://github.com/Getsched/WorkFlow/assets/133157186/53da3b64-7a09-4072-989e-6ec3abd9333e"> <br />
 > <br />
 >
 > 
-> Figure 3: Solution 3<br />
+#### Figure 3: Solution 3<br />
 > This solution is the best one because it has a set number of shifts for each day, and the manager can choose the length of each shift<br />
 > <img width="771" alt="solution3" src="https://github.com/Getsched/WorkFlow/assets/133157186/76fc1cd1-1fdf-49fc-a90d-550ba42b58a4"><br />
 > <br />
@@ -127,7 +126,7 @@ Seonyu Park <br />
 
 
 ### 4. Team Work
-> Table 1: Week 1 Meeting 
+#### Table 1: Week 1 Meeting 
 >| Team Member | Previous Task | Completion State | Next Task                   |
 >|-------------|---------------|------------------|-----------------------------|
 >| Ememobong   |               |                  |                             |
@@ -135,7 +134,7 @@ Seonyu Park <br />
 >| Sophia      |               |                  |                             |
 >
 > 
-> Table 2: Week 2 Meeting
+#### Table 2: Week 2 Meeting
 >| Team Member | Previous Task                                                    | Completion State     | Next Task              |
 >|-------------|------------------------------------------------------------------|----------------------|------------------------|
 >| Ememobong   |                                                                  |                      |                        |
