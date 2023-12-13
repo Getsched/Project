@@ -128,7 +128,7 @@ Seonyu Park <br />
 #### Table 1: Week 1 Meeting 
 >| Team Member | Previous Task | Completion State | Next Task                   |
 >|-------------|---------------|------------------|-----------------------------|
->| Ememobong   |               |                  |                             |
+>| Ememobong   | Brainstorming | 100%             | Research into project       |
 >| Seonyu      | Brainstorming | 100%             | Creating Problem Definition |
 >| Sophia      | Brainstorming | 100%             | Make notes about implementation plan|
 >
@@ -136,84 +136,84 @@ Seonyu Park <br />
 #### Table 2: Week 2 Meeting
 >| Team Member | Previous Task                                                    | Completion State     | Next Task              |
 >|-------------|------------------------------------------------------------------|----------------------|------------------------|
->| Ememobong   |                                                                  |                      |                        |
+>| Ememobong   | Research into project                                            | 100%                 | Work Business case    |
 >| Seonyu      | Problem Definition<br>Created Gantt Chart<br>Made Discord Server | 100%<br>100%<br>100% | Creating Business Case |
 >| Sophia      | Make notes about implementation plan <br> Plan each sprint       | 100% <br> 100%       | Create Business Case   |
 >
 #### Table 3: Week 3 Meeting
 >| Team Member | Previous Task                 | Completion State | Next Task                                              |
 >|-------------|-------------------------------|------------------|--------------------------------------------------------|
->| Ememobong   |                               |                  |                                                        |
+>| Ememobong   | Work business case            | 100%             | Set meeting with stakeholder/sponsor                   |
 >| Seonyu      | Create Business Case          | 100%             | Preparation for the first meeting with the stakeholder |
 >| Sophia      | Create Business Case          | 100%             | Prepare for customer/stakeholder meeting               |
 >
 #### Table 4: Week 4 Meeting
 >| Team Member | Previous Task            | Completion State | Next Task                                                                        |
 >|-------------|--------------------------|------------------|----------------------------------------------------------------------------------|
->| Ememobong   |                          |                  |                                                                                  |
+>| Ememobong   | Set meeting time         | 100%             | Research into software requirements                                              |
 >| Seonyu      | Set regular meeting time | 100%             | Define the functions and objectives of the software<br>Define design constraints |
 >| Sophia      | Prepare for meeting      | 100%             | Compile list of stakeholder requirements <br> Consider design constraints        |                         |                  |                                                     |
 >
 #### Table 5: Week 5 Meeting
 >| Team Member | Previous Task                                                                    | Completion State | Next Task                |
 >|-------------|----------------------------------------------------------------------------------|------------------|--------------------------|
->| Ememobong   |                                                                                  |                  |                          |
+>| Ememobong   | Research into software requirements/similar applications                         | 100%             | Creation of lofi         |
 >| Seonyu      | Define the functions and objectives of the software<br>Define design constraints | 100%<br>100%     | Low-Fidelity Prototyping |
 >| Sophia      | Compile list of stakeholder requirements <br> Consider design constraints        | 100% <br> 100%   | Outline all sprints      |
 > 
 #### Table 6: Week 6 Meeting
 >| Team Member | Previous Task                                                                                                          | Completion State     | Next Task                     |
 >|-------------|------------------------------------------------------------------------------------------------------------------------|----------------------|-------------------------------|
->| Ememobong   |                                                                                                                        |                      |                               |
+>| Ememobong   | creation of lofi                                                                                                       | 100%                 | update and compare lofi       |
 >| Seonyu      | Identified function-related components<br>Sketch interfaces and interaction between components<br>Detailed Gantt Chart | 100%<br>100%<br>100% | Update Low-Fidelity Prototype |
 >| Sophia      | Outline the sprints and the tasks for each sprint                                                                      | 100%                 | Low Fidelity Prototype        |
 >
 #### Table 7: Week 7 Meeting
 >| Team Member | Previous Task                  | Completion State | Next Task                 |
 >|-------------|--------------------------------|------------------|---------------------------|
->| Ememobong   |                                |                  |                           |
+>| Ememobong   | update and compare lofi        | 100%             | Hifi prototype            |
 >| Seonyu      | Updated Low-Fidelity Prototype | 100%             | High-Fidelity Prototyping |
 >| Sophia      | Low Fidelity Prototype         | 100%             | High Fidelity Prototype   |
 > 
 #### Table 8: Week 8 Meeting
 >| Team Member | Previous Task                     | Completion State | Next Task                          |
 >|-------------|-----------------------------------|------------------|------------------------------------|
->| Ememobong   |                                   |                  |                                    |
+>| Ememobong   | Hifi prototype                    | 100%             | update and edit hifi prototype     |
 >| Seonyu      | Started High-Fidelity Prototyping | 100%             | Finalize High-Fidelity Prototyping |
 >| Sophia      | High Fidelity Prototype           | 100%             | Complete High Fidelity Prototype   |
 > 
 #### Table 9: Week 9 Meeting
 >| Team Member | Previous Task                                                                 | Completion State | Next Task                       |
 >|-------------|-------------------------------------------------------------------------------|------------------|---------------------------------|
->| Ememobong   |                                                                               |                  |                                 |
+>| Ememobong   | update and edit hifi prototype                                                | 100%             | prepare for meeting                                |
 >| Seonyu      | Finalized High-Fidelity Prototyping<br>Shared the prototypes with the members | 100%<br>100%     | Deliver High-Fidelity Prototype |
 >| Sophia      |  Complete High Fidelity Prototype                                             | 100%             | Prepare for meeting             |
 >
 #### Table 10: Week 10 Meeting
 >| Team Member | Previous Task                                                                    | Completion State | Next Task                         |
 >|-------------|----------------------------------------------------------------------------------|------------------|-----------------------------------|
->| Ememobong   |                                                                                  |                  |                                   |
+>| Ememobong   | meet/recieve sponsor feedback                                                    | 100%             | begin coding and and environmetnt testing |
 >| Seonyu      | Delivered High-Fidelity Prototypes<br>Created and shared .html files with members | 100%<br>100%     | Preparation for the scrum meeting |
 >| Sophia      | Meeting with customer/stakeholder                                                | 100%              | Begin coding and implementing                 |
 > 
 #### Table 11: Week 11 Meeting
 >| Team Member | Previous Task                                   | Completion State | Next Task               |
 >|-------------|-------------------------------------------------|------------------|-------------------------|
->| Ememobong   |                                                 |                  |                         |
+>| Ememobong   | begin coding and and environmetnt testing       | 100%             | Creating and editing of non essential pages |
 >| Seonyu      | Delivered static prototype (only html and css)  | 100%             | Implement MVC prototype |
 >| Sophia      | Begin coding HTML and CSS                       | 100%             | Continue implementation |
 > 
 #### Table 12: Week 12 Meeting
 >| Team Member | Previous Task                                                                                  | Completion State | Next Task                           |
 >|-------------|------------------------------------------------------------------------------------------------|----------------------|-------------------------------------|
->| Ememobong   |                                                                                                |                      |                                     |
+>| Ememobong   | Creating and editing of non essential pages <br>testing and debugging                          | 100%<br>100%         | finish up & post remaining documentation|
 >| Seonyu      | Created local development server <br>Started Testing and debugging<br>Connected to the mongoDB | 100%<br>100%<br>100%     | Continue to implement MVC prototype |
 >| Sophia      | Implement signup and login functionality <br> Apply styling to pages<br> Ensure pages are connected |100%<br>100%<br>100% | Continue implementation             |
 >
 #### Table 13: Week 13 Meeting
 >| Team Member | Previous Task                                                                                    | Completion State     | Next Task |
 >|-------------|--------------------------------------------------------------------------------------------------|----------------------|-----------|
->| Ememobong   |                                                                                                  |                      |           |
+>| Ememobong   | finish up & post remaining documentation                                                         | 100%                 |           |
 >| Seonyu      | Finalized the MVC prototype<br>Delivered the MVC prototype<br>Finalized the Documents and report | 100%<br>100%<br>100% |           |
 >| Sophia      | Completed and delivered the product<br> Complete Documentation                                   | 100%<br>100%         |           |
 > 
