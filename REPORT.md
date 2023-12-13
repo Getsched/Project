@@ -16,7 +16,7 @@ Seonyu Park <br />
     - 2.2.1 Functions <br  />
     - 2.2.2 Objectives <br  />
     - 2.2.3 Constraitns <br  />
-3. Solution<br />
+[3. Solution](https://github.com/Getsched/WorkFlow/blob/main/REPORT.md#3-solution)<br />
    3.1 Solution 1 <br />
    3.2 Solution 2 <br />
    3.3 Final Solution <br />
