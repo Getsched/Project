@@ -88,18 +88,22 @@ Seonyu Park <br />
 
 ### 3. Solution
 > Figure 1: Solution 1<br />
-> <img width="681" alt="solution1" src="https://github.com/Getsched/WorkFlow/assets/133157186/c5cd24d9-55cb-4788-943a-b35288366f3d"> <br />
 > Employees can enter their own timings for shifts, but this does not align with the design requirements of having the manager in control of the shifts<br />
+>
+> <img width="681" alt="solution1" src="https://github.com/Getsched/WorkFlow/assets/133157186/c5cd24d9-55cb-4788-943a-b35288366f3d"> <br />
+> <br />
 >
 > 
 > Figure 2: Solution 2 <br />
-> <img width="714" alt="solution2" src="https://github.com/Getsched/WorkFlow/assets/133157186/53da3b64-7a09-4072-989e-6ec3abd9333e"> <br />
 > This solution is an improvement over Solution 1 because it provides employees with a limited set of options chosen by the manager. However, it still allows employees the flexibility to choose the length of their shifts.<br />
+> <img width="714" alt="solution2" src="https://github.com/Getsched/WorkFlow/assets/133157186/53da3b64-7a09-4072-989e-6ec3abd9333e"> <br />
+> <br />
 >
 > 
 > Figure 3: Solution 3<br />
-> <img width="771" alt="solution3" src="https://github.com/Getsched/WorkFlow/assets/133157186/76fc1cd1-1fdf-49fc-a90d-550ba42b58a4"><br />
 > This solution is the best one because it has a set number of shifts for each day, and the manager can choose the length of each shift<br />
+> <img width="771" alt="solution3" src="https://github.com/Getsched/WorkFlow/assets/133157186/76fc1cd1-1fdf-49fc-a90d-550ba42b58a4"><br />
+> <br />
 >
 
 
