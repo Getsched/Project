@@ -126,8 +126,8 @@ Seonyu Park <br />
 >| Sophia      |                                                     |                  |                          |
 >
 > Table 6: Week 6 Meeting
->| Team Member | Previous Task                                                                                                          >| Completion State     | Next Task                     |
-|-------------|------------------------------------------------------------------------------------------------------------------------|----------------------|-------------------------------|
+>| Team Member | Previous Task                                                                                                          | Completion State     | Next Task                     |
+>|-------------|------------------------------------------------------------------------------------------------------------------------|----------------------|-------------------------------|
 >| Ememobong   |                                                                                                                        |                      |                               |
 >| Seonyu      | Identified function-related components<br>Sketch interfaces and interaction between components<br>Detailed Gantt Chart | 100%<br>100%<br>100% | Update Low-Fidelity Prototype |
 >| Sophia      |                                                                                                                        >|                      |                               |
