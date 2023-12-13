@@ -112,11 +112,11 @@ Seonyu Park <br />
 >| Sophia      |                               |                  |                                                        |
 >
 > Table 4: Week 4 Meeting
->| Team Member | Previous Task            | Completion State | Next Task                                           |
->|-------------|--------------------------|------------------|-----------------------------------------------------|
->| Ememobong   |                          |                  |                                                     |
->| Seonyu      | Set regular meeting time | 100%             | Define the functions and objectives of the software |
->| Sophia      |                          |                  |                                                     |
+>| Team Member | Previous Task            | Completion State | Next Task                                                                        |
+>|-------------|--------------------------|------------------|----------------------------------------------------------------------------------|
+>| Ememobong   |                          |                  |                                                                                  |
+>| Seonyu      | Set regular meeting time | 100%             | Define the functions and objectives of the software<br>Define design constraints |
+>| Sophia      |                          |                  |                                                                                  |                         |                  |                                                     |
 >
 > Table 5: Week 5 Meeting
 >| Team Member | Previous Task                                       | Completion State | Next Task                |
