@@ -124,6 +124,7 @@ Seonyu Park <br />
 >| Ememobong   |                                                                                  |                  |                          |
 >| Seonyu      | Define the functions and objectives of the software<br>Define design constraints | 100%<br>100%     | Low-Fidelity Prototyping |
 >| Sophia      |                                                                                  |                  |                          |
+> 
 > Table 6: Week 6 Meeting
 >| Team Member | Previous Task                                                                                                          | Completion State     | Next Task                     |
 >|-------------|------------------------------------------------------------------------------------------------------------------------|----------------------|-------------------------------|
