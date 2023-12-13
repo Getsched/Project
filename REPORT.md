@@ -169,9 +169,9 @@ Seonyu Park <br />
 > 
 > Table 12: Week 12 Meeting
 >| Team Member | Previous Task                                                                                  | Completion State | Next Task                           |
->|-------------|------------------------------------------------------------------------------------------------|------------------|-------------------------------------|
->| Ememobong   |                                                                                                |                  |                                     |
->| Seonyu      | Created local development server <br>Started Testing and debugging<br>Connected to the mongoDB | 100%<br>100%     | Continue to implement MVC prototype |
+>|-------------|------------------------------------------------------------------------------------------------|----------------------|-------------------------------------|
+>| Ememobong   |                                                                                                |                      |                                     |
+>| Seonyu      | Created local development server <br>Started Testing and debugging<br>Connected to the mongoDB | 100%<br>100%<br>100%     | Continue to implement MVC prototype |
 >| Sophia      |                                                                                                |                  |                                     |
 >
 > Table 13: Week 13 Meeting
