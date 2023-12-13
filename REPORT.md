@@ -12,14 +12,14 @@ Seonyu Park <br />
 [1. Introduction](https://github.com/Getsched/WorkFlow/blob/main/REPORT.md#1-introduction-) <br />
 [2. Design Problem](https://github.com/Getsched/WorkFlow/blob/main/REPORT.md#2-design-problem) <br />
    [2.1 Problem Definition](https://github.com/Getsched/WorkFlow/blob/main/REPORT.md#21-problem-definition-) <br />
-   [2.2 Design Requirements] <br  />
+   [2.2 Design Requirements](https://github.com/Getsched/WorkFlow/blob/main/REPORT.md#22-design-requirements-) <br  />
     - 2.2.1 Functions <br  />
     - 2.2.2 Objectives <br  />
     - 2.2.3 Constraitns <br  />
 [3. Solution](https://github.com/Getsched/WorkFlow/blob/main/REPORT.md#3-solution)<br />
-   [3.1 Solution 1] <br />
-   [3.2 Solution 2] <br />
-   [3.3 Final Solution] <br />
+   [3.1 Solution 1](https://github.com/Getsched/WorkFlow/blob/main/REPORT.md#figure-1-solution-1)<br />
+   [3.2 Solution 2](https://github.com/Getsched/WorkFlow/blob/main/REPORT.md#figure-2-solution-2) <br />
+   [3.3 Final Solution](https://github.com/Getsched/WorkFlow/blob/main/REPORT.md#figure-3-solution-3) <br />
     - 3.3.1 Components <br />
     - 3.3.2 Features <br />
     - 3.3.3 Environmental, Societal, Safety and Economic Considerations<br />
@@ -38,8 +38,8 @@ Seonyu Park <br />
    [4.11 Table 11: Week 11 Meeting](https://github.com/Getsched/WorkFlow/blob/main/REPORT.md#table-11-week-11-meeting)   <br />
    [4.12 Table 12: Week 12 Meeting](https://github.com/Getsched/WorkFlow/blob/main/REPORT.md#table-12-week-12-meeting)   <br />
    [4.13 Table 13: Week 13 Meeting](https://github.com/Getsched/WorkFlow/blob/main/REPORT.md#table-13-week-13-meeting)   <br />
-[5. Project Management]<br />
-[6. Conclusion and Future Work]<br />
+[5. Project Management](https://github.com/Getsched/WorkFlow/blob/main/REPORT.md#5-project-management)<br />
+[6. Conclusion and Future Work](https://github.com/Getsched/WorkFlow/blob/main/REPORT.md#6conclusion-and-future-work)<br />
 
 
 ## List of Figures
