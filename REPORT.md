@@ -12,14 +12,14 @@ Seonyu Park <br />
 [1. Introduction](https://github.com/Getsched/WorkFlow/blob/main/REPORT.md#1-introduction-) <br />
 [2. Design Problem](https://github.com/Getsched/WorkFlow/blob/main/REPORT.md#2-design-problem) <br />
    [2.1 Problem Definition](https://github.com/Getsched/WorkFlow/blob/main/REPORT.md#21-problem-definition-) <br />
-   2.2 Design Requirements <br  />
+   [2.2 Design Requirements] <br  />
     - 2.2.1 Functions <br  />
     - 2.2.2 Objectives <br  />
     - 2.2.3 Constraitns <br  />
 [3. Solution](https://github.com/Getsched/WorkFlow/blob/main/REPORT.md#3-solution)<br />
-   3.1 Solution 1 <br />
-   3.2 Solution 2 <br />
-   3.3 Final Solution <br />
+   [3.1 Solution 1] <br />
+   [3.2 Solution 2] <br />
+   [3.3 Final Solution] <br />
     - 3.3.1 Components <br />
     - 3.3.2 Features <br />
     - 3.3.3 Environmental, Societal, Safety and Economic Considerations<br />
@@ -38,17 +38,16 @@ Seonyu Park <br />
    4.11 Table 11: Week 11 Meeting  <br />
    4.12 Table 12: Week 12 Meeting  <br />
    4.13 Table 13: Week 13 Meeting  <br />
-5. Project Management<br />
-6. Conclusion and Future Work<br />
-7. References<br />
-8. Appendix<br />
+[5. Project Management]<br />
+[6. Conclusion and Future Work]<br />
+
 
 ## List of Figures
-1. Figure 1
-2. Figure 2
-3. Figure 3
-4. Figure 4
-5. Figure 5
+[1. Figure 1]
+[2. Figure 2]
+[3. Figure 3]
+[4. Figure 4]
+[5. Figure 5]
 
 ## List of Tables
 1. Table 1
