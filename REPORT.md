@@ -89,8 +89,7 @@ Seonyu Park <br />
 ### 3. Solution
 
 ### 4. Team Work
-> Table 1: Week 1 Meeting
-> 
+> Table 1: Week 1 Meeting 
 >| Team Member | Previous Task | Completion State | Next Task                   |
 >|-------------|---------------|------------------|-----------------------------|
 >| Ememobong   |               |                  |                             |
@@ -99,18 +98,18 @@ Seonyu Park <br />
 >
 > 
 > Table 2: Week 2 Meeting
-> | Team Member | Previous Task                                                    | Completion State     | Next Task              |
+>| Team Member | Previous Task                                                    | Completion State     | Next Task              |
 >|-------------|------------------------------------------------------------------|----------------------|------------------------|
 >| Ememobong   |                                                                  |                      |                        |
 >| Seonyu      | Problem Definition<br>Created Gantt Chart<br>Made Discord Server | 100%<br>100%<br>100% | Creating Business Case |
 >| Sophia      |                                                                  |                      |                        |
 >
 > Table 3: Week 3 Meeting
-> | Team Member | Previous Task | Completion State | Next Task |
-> |-------------|---------------|------------------|-----------|
-> | Ememobong   |               |                  |           |
-> | Seonyu      |               |                  |           |
-> | Sophia      |               |                  |           |
+>| Team Member | Previous Task                 | Completion State | Next Task                                              |
+>|-------------|-------------------------------|------------------|--------------------------------------------------------|
+>| Ememobong   |                               |                  |                                                        |
+>| Seonyu      | Keep working on Business Case | 100%             | Preparation for the first meeting with the stakeholder |
+>| Sophia      |                               |                  |                                                        |
 >
 > Table 4: Week 4 Meeting
 > | Team Member | Previous Task | Completion State | Next Task |
