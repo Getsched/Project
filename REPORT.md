@@ -226,6 +226,19 @@ Seonyu Park <br />
 
 
 ### 6.Conclusion and Future Work
+> The project has concluded successfully with the delivery of a user-friendly scheduling application that fulfills crucial functions and objectives while complying with various constraints. Implementing sign-up and login functionalities ensures secure access to the scheduling system, enabling users to submit their availability. Employers can manage shifts efficiently by adding or removing employees as needed, which is a significant benefit.<br />
+> <br />
+> <br />
+> The application has successfully achieved its primary objectives:<br />
+> <br />
+> 1. User-Friendly Interface: The scheduling application provides an intuitive and user-friendly interface, allowing employees to submit their availability and managers to manage shifts efficiently and quickly.<br />
+> 2. Workforce Management: Employers can successfully add or drop employees from specific shifts, contributing to effective workforce management.<br />
+> 3. Schedule Visibility: Both employees and managers can view the entire schedule, enhancing communication and coordination among team members.<br />
+> 4. Cost-Efficiency: The application is economically viable as it is offered free of charge, providing organizations with a cost-effective solution for workforce management.<br />
+> 5. Regulatory Compliance: The application ensures data security through authentication, salting, and hashing processes, aligning with regulatory compliance standards. <br />
+> 6. Ethical Considerations: Adherence to copyright regulations for photos and logos demonstrates moral responsibility in content usage.
+Sustainability: The software promotes environmental sustainability by allowing users to reduce reliance on manual supplies and paperwork.<br />
+> 7. Societal Impact: The application positively contributes to societal well-being by reducing workload and stress.<br />
 
 ### 7. References
 
