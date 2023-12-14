@@ -1,5 +1,2 @@
-
-
-*.ejs linguist-detectable=false
-*.html linguist-detectable=false
-*.css linguist-detectable=false
+prototypes/** linguist-documentation=false
+prototypes/** linguist-vendored=false
