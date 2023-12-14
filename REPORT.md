@@ -49,7 +49,7 @@ Seonyu Park <br />
 [4. Figure 4](https://github.com/Getsched/WorkFlow/blob/main/REPORT.md#figure-4-gantt-chart)  
 [5. Figure 5](https://github.com/Getsched/WorkFlow/blob/main/REPORT.md#figure-5-gantt-chart)  
 [6. Figure 6](https://github.com/Getsched/WorkFlow/blob/main/REPORT.md#figure-6-design-selection-)
-[7. Figure 7]
+[7. Figure 7](https://github.com/Getsched/WorkFlow/blob/main/REPORT.md#figure-7-comparison-of-solutions)
 
 ## List of Tables
 [1. Table 1](https://github.com/Getsched/WorkFlow/blob/main/REPORT.md#table-1-week-1-meeting)  
