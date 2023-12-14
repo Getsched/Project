@@ -122,6 +122,8 @@ Seonyu Park <br />
 > <img width="771" alt="solution3" src="https://github.com/Getsched/WorkFlow/assets/133157186/76fc1cd1-1fdf-49fc-a90d-550ba42b58a4"><br />
 > <br />
 >
+#### Figure 6: Design Selection <br  />
+> <img width="632" alt="Matrix" src="https://github.com/Getsched/WorkFlow/assets/133157186/17546413-031a-46c1-8c01-76789ae7edc3">
 
 
 ### 4. Team Work
