@@ -1,0 +1,474 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Home Page</title>
+</head>
+
+<body>
+    <div class="container">
+        <header>
+            <div>
+                <a href="/home">
+                    <img src="images/logo.png" alt="Your Logo" class="logo">
+                </a>
+
+            </div>
+            <nav>
+                <a href="/home">Home</a>
+                <a href="/manager">Schedule</a>
+                <a href="/about">About</a>
+                <a href="/contact">Contact</a>
+            </nav>
+            <form action="/logout" method="get">
+                <div class="auth-buttons">
+                    <p class="input-field">
+                        <button class="btn btn-primary btn-lg" type="submit">Log Out</button>
+                    </p>
+                </div>
+            </form>
+        </header>
+
+<!-- Display the heading for Employee Schedules -->
+        <h2>Employee Schedules</h2>
+
+        <% if (!matrixData || matrixData.length === 0) { %>
+     <!-- Display a message if no matrix data is available -->
+          <p>Timeslot is available to book</p>
+        <% }  %>
+      
+<% if (matrixData && matrixData.length > 0) { %>
+
+  <!-- Create a table to display employee schedules -->
+          <table class="table table-bordered">
+            <thead>
+              <!-- Table header with days of the week -->
+              <tr>
+                <th scope="col"></th>
+                <th scope="col">Monday</th>
+                <th scope="col">Tuesday</th>
+                <th scope="col">Wednesday</th>
+                <th scope="col">Thursday</th>
+                <th scope="col">Friday</th>
+              </tr>
+            </thead>
+            <tbody>
+              <!-- Table body row for Morning time slot -->
+              <tr> 
+                <th scope="row">Morning <br> 9:00 - 12:00</th>
+                
+                <!--////////////////////////MONDAY MORNING////////////////////////-->
+                  <td>
+                     <!-- Iterate through matrixData to display employee schedules for Monday Morning -->
+                    <% matrixData.forEach(matrix => { %>
+                      <% matrix.matrix.forEach(timeslot => { %>
+                        <% if (timeslot[0].day === "MondayMorning") { %>
+                          <% if (timeslot[0].isBooked) { %>
+                            <%= timeslot[0].bookedBy %>
+                            <!-- Display the booked employee and provide a button to drop the booking -->
+                            <form action="emptyTimeslot/MondayMorning" method="POST">
+                              <button type="submit" class="btn btn-outline-danger">Drop</button>
+                            </form>
+                          <% } else { %>
+                            <!-- Provide a form to assign an employee to the timeslot -->
+                            <form action="/assignEmployee/MondayMorning" method="POST">
+                              <select name="employeeSelect">
+                                <% employeeData.forEach(employee => { %>
+                                  <!-- Iterate through employeeData to create options in the select dropdown -->
+                                  <option value="<%= employee.username %>"><%= employee.username %></option>
+                                <% }) %>
+                              </select>
+                              <button type="submit" class="btn btn-outline-danger">Assign Employee</button>
+                            </form>
+                          <% } %>
+                        <% } %>
+                      <% }); %>
+                    <% }); %>
+                  </td>
+                 <!--///////////////// Similar blocks for Tuesday, Wednesday, Thursday, and Friday can be added here///////// -->
+
+
+
+
+                <!--////////////////////////TUESDAY MORNING////////////////////////-->
+                <td>
+                  <% matrixData.forEach(matrix => { %>
+                    <% matrix.matrix.forEach(timeslot => { %>
+                      <% if (timeslot[0].day === "TuesdayMorning") { %>
+                        <% if (timeslot[0].isBooked) { %>
+                          <%= timeslot[0].bookedBy %>
+                          <form action="emptyTimeslot/TuesdayMorning" method="POST">
+                            <button type="submit" class="btn btn-outline-danger">Drop</button>
+                          </form>
+                        <% } else { %>
+                          <form action="/assignEmployee/TuesdayMorning" method="POST">
+                            <select name="employeeSelect">
+                              <% employeeData.forEach(employee => { %>
+                                <option value="<%= employee.username %>"><%= employee.username %></option>
+                              <% }) %>
+                            </select>
+                            <button type="submit" class="btn btn-outline-danger">Assign Employee</button>
+                          </form>
+                        <% } %>
+                      <% } %>
+                    <% }); %>
+                  <% }); %>
+                </td>
+
+                <!--////////////////////////WEDNESDAY MORNING////////////////////////-->
+                    <td>
+                      <% matrixData.forEach(matrix => { %>
+                        <% matrix.matrix.forEach(timeslot => { %>
+                          <% if (timeslot[0].day === "WednesdayMorning") { %>
+                            <% if (timeslot[0].isBooked) { %>
+                              <%= timeslot[0].bookedBy %>
+                              <form action="emptyTimeslot/WednesdayMorning" method="POST">
+                                <button type="submit" class="btn btn-outline-danger">Drop</button>
+                              </form>
+                            <% } else { %>
+                              <form action="/assignEmployee/WednesdayMorning" method="POST">
+                                <select name="employeeSelect">
+                                  <% employeeData.forEach(employee => { %>
+                                    <option value="<%= employee.username %>"><%= employee.username %></option>
+                                  <% }) %>
+                                </select>
+                                <button type="submit" class="btn btn-outline-danger">Assign Employee</button>
+                              </form>
+                            <% } %>
+                          <% } %>
+                        <% }); %>
+                      <% }); %>
+                    </td>
+
+                <!--////////////////////////THURSDAY MORNING////////////////////////-->
+                <td>
+                  <% matrixData.forEach(matrix => { %>
+                    <% matrix.matrix.forEach(timeslot => { %>
+                      <% if (timeslot[0].day === "ThursdayMorning") { %>
+                        <% if (timeslot[0].isBooked) { %>
+                          <%= timeslot[0].bookedBy %>
+                          <form action="emptyTimeslot/ThursdayMorning" method="POST">
+                            <button type="submit" class="btn btn-outline-danger">Drop</button>
+                          </form>
+                        <% } else { %>
+                          <form action="/assignEmployee/ThursdayMorning" method="POST">
+                            <select name="employeeSelect">
+                              <% employeeData.forEach(employee => { %>
+                                <option value="<%= employee.username %>"><%= employee.username %></option>
+                              <% }) %>
+                            </select>
+                            <button type="submit" class="btn btn-outline-danger">Assign Employee</button>
+                          </form>
+                        <% } %>
+                      <% } %>
+                    <% }); %>
+                  <% }); %>
+                </td>
+
+
+                <!--////////////////////////FRIDAY MORNING////////////////////////-->
+                  <td>
+                    <% matrixData.forEach(matrix => { %>
+                      <% matrix.matrix.forEach(timeslot => { %>
+                        <% if (timeslot[0].day === "FridayMorning") { %>
+                          <% if (timeslot[0].isBooked) { %>
+                            <%= timeslot[0].bookedBy %>
+                            <form action="emptyTimeslot/FridayMorning" method="POST">
+                              <button type="submit" class="btn btn-outline-danger">Drop</button>
+                            </form>
+                          <% } else { %>
+                            <form action="/assignEmployee/FridayMorning" method="POST">
+                              <select name="employeeSelect">
+                                <% employeeData.forEach(employee => { %>
+                                  <option value="<%= employee.username %>"><%= employee.username %></option>
+                                <% }) %>
+                              </select>
+                              <button type="submit" class="btn btn-outline-danger">Assign Employee</button>
+                            </form>
+                          <% } %>
+                        <% } %>
+                      <% }); %>
+                    <% }); %>
+                  </td>
+
+
+                <tr>
+                  <th scope="row">Afternoon <br> 12:00 - 3:00 </th>
+
+                 <!--////////////////////////MONDAY AFTERNOON////////////////////////-->
+                 <td>
+                  <% matrixData.forEach(matrix => { %>
+                    <% matrix.matrix.forEach(timeslot => { %>
+                      <% if (timeslot[0].day === "MondayAfternoon") { %>
+                        <% if (timeslot[0].isBooked) { %>
+                          <%= timeslot[0].bookedBy %>
+                          <form action="emptyTimeslot/MondayAfternoon" method="POST">
+                            <button type="submit" class="btn btn-outline-danger">Drop</button>
+                          </form>
+                        <% } else { %>
+                          <form action="/assignEmployee/MondayAfternoon" method="POST">
+                            <select name="employeeSelect">
+                              <% employeeData.forEach(employee => { %>
+                                <option value="<%= employee.username %>"><%= employee.username %></option>
+                              <% }) %>
+                            </select>
+                            <button type="submit" class="btn btn-outline-danger">Assign Employee</button>
+                          </form>
+                        <% } %>
+                      <% } %>
+                    <% }); %>
+                  <% }); %>
+                </td>
+
+                 <!--////////////////////////TUESDAY AFTERNOON////////////////////////-->
+                  <td>
+                    <% matrixData.forEach(matrix => { %>
+                      <% matrix.matrix.forEach(timeslot => { %>
+                        <% if (timeslot[0].day === "TuesdayAfternoon") { %>
+                          <% if (timeslot[0].isBooked) { %>
+                            <%= timeslot[0].bookedBy %>
+                            <form action="emptyTimeslot/TuesdayAfternoon" method="POST">
+                              <button type="submit" class="btn btn-outline-danger">Drop</button>
+                            </form>
+                          <% } else { %>
+                            <form action="/assignEmployee/TuesdayAfternoon" method="POST">
+                              <select name="employeeSelect">
+                                <% employeeData.forEach(employee => { %>
+                                  <option value="<%= employee.username %>"><%= employee.username %></option>
+                                <% }) %>
+                              </select>
+                              <button type="submit" class="btn btn-outline-danger">Assign Employee</button>
+                            </form>
+                          <% } %>
+                        <% } %>
+                      <% }); %>
+                    <% }); %>
+                  </td>
+
+                 <!--////////////////////////WEDNESDAY AFTERNOON////////////////////////-->
+                  <td>
+                    <% matrixData.forEach(matrix => { %>
+                      <% matrix.matrix.forEach(timeslot => { %>
+                        <% if (timeslot[0].day === "WednesdayAfternoon") { %>
+                          <% if (timeslot[0].isBooked) { %>
+                            <%= timeslot[0].bookedBy %>
+                            <form action="emptyTimeslot/WednesdayAfternoon" method="POST">
+                              <button type="submit" class="btn btn-outline-danger">Drop</button>
+                            </form>
+                          <% } else { %>
+                            <form action="/assignEmployee/WednesdayAfternoon" method="POST">
+                              <select name="employeeSelect">
+                                <% employeeData.forEach(employee => { %>
+                                  <option value="<%= employee.username %>"><%= employee.username %></option>
+                                <% }) %>
+                              </select>
+                              <button type="submit" class="btn btn-outline-danger">Assign Employee</button>
+                            </form>
+                          <% } %>
+                        <% } %>
+                      <% }); %>
+                    <% }); %>
+                  </td>
+
+                 <!--////////////////////////THURSDAY AFTERNOON////////////////////////-->
+                 <td>
+                  <% matrixData.forEach(matrix => { %>
+                    <% matrix.matrix.forEach(timeslot => { %>
+                      <% if (timeslot[0].day === "ThursdayAfternoon") { %>
+                        <% if (timeslot[0].isBooked) { %>
+                          <%= timeslot[0].bookedBy %>
+                          <form action="emptyTimeslot/ThursdayAfternoon" method="POST">
+                            <button type="submit" class="btn btn-outline-danger">Drop</button>
+                          </form>
+                        <% } else { %>
+                          <form action="/assignEmployee/ThursdayAfternoon" method="POST">
+                            <select name="employeeSelect">
+                              <% employeeData.forEach(employee => { %>
+                                <option value="<%= employee.username %>"><%= employee.username %></option>
+                              <% }) %>
+                            </select>
+                            <button type="submit" class="btn btn-outline-danger">Assign Employee</button>
+                          </form>
+                        <% } %>
+                      <% } %>
+                    <% }); %>
+                  <% }); %>
+                </td>
+
+                <!--////////////////////////FRIDAY AFTERNOON////////////////////////-->
+                <td>
+                  <% matrixData.forEach(matrix => { %>
+                    <% matrix.matrix.forEach(timeslot => { %>
+                      <% if (timeslot[0].day === "FrisdayAfternoon") { %>
+                        <% if (timeslot[0].isBooked) { %>
+                          <%= timeslot[0].bookedBy %>
+                          <form action="emptyTimeslot/FrisdayAfternoon" method="POST">
+                            <button type="submit" class="btn btn-outline-danger">Drop</button>
+                          </form>
+                        <% } else { %>
+                          <form action="/assignEmployee/FrisdayAfternoon" method="POST">
+                            <select name="employeeSelect">
+                              <% employeeData.forEach(employee => { %>
+                                <option value="<%= employee.username %>"><%= employee.username %></option>
+                              <% }) %>
+                            </select>
+                            <button type="submit" class="btn btn-outline-danger">Assign Employee</button>
+                          </form>
+                        <% } %>
+                      <% } %>
+                    <% }); %>
+                  <% }); %>
+                </td>
+                </tr>
+
+                <tr>
+                  <th scope="row">Evening <br> 3:00 - 6:00</th>
+
+                <!--////////////////////////MONDAY EVENING////////////////////////-->
+                  <td>
+                    <% matrixData.forEach(matrix => { %>
+                      <% matrix.matrix.forEach(timeslot => { %>
+                        <% if (timeslot[0].day === "MondayEvening") { %>
+                          <% if (timeslot[0].isBooked) { %>
+                            <%= timeslot[0].bookedBy %>
+                            <form action="emptyTimeslot/MondayEvening" method="POST">
+                              <button type="submit" class="btn btn-outline-danger">Drop</button>
+                            </form>
+                          <% } else { %>
+                            <form action="/assignEmployee/MondayEvening" method="POST">
+                              <select name="employeeSelect">
+                                <% employeeData.forEach(employee => { %>
+                                  <option value="<%= employee.username %>"><%= employee.username %></option>
+                                <% }) %>
+                              </select>
+                              <button type="submit" class="btn btn-outline-danger">Assign Employee</button>
+                            </form>
+                          <% } %>
+                        <% } %>
+                      <% }); %>
+                    <% }); %>
+                  </td>   
+
+                <!--////////////////////////TUESDAY EVENING////////////////////////-->
+                <td>
+                  <% matrixData.forEach(matrix => { %>
+                    <% matrix.matrix.forEach(timeslot => { %>
+                      <% if (timeslot[0].day === "TuesdayEvening") { %>
+                        <% if (timeslot[0].isBooked) { %>
+                          <%= timeslot[0].bookedBy %>
+                          <form action="emptyTimeslot/TuesdayEvening" method="POST">
+                            <button type="submit" class="btn btn-outline-danger">Drop</button>
+                          </form>
+                        <% } else { %>
+                          <form action="/assignEmployee/TuesdayEvening" method="POST">
+                            <select name="employeeSelect">
+                              <% employeeData.forEach(employee => { %>
+                                <option value="<%= employee.username %>"><%= employee.username %></option>
+                              <% }) %>
+                            </select>
+                            <button type="submit" class="btn btn-outline-danger">Assign Employee</button>
+                          </form>
+                        <% } %>
+                      <% } %>
+                    <% }); %>
+                  <% }); %>
+                </td> 
+
+                <!--////////////////////////WEDNESDAY EVENING////////////////////////-->
+                <td>
+                  <% matrixData.forEach(matrix => { %>
+                    <% matrix.matrix.forEach(timeslot => { %>
+                      <% if (timeslot[0].day === "WednesdayEvening") { %>
+                        <% if (timeslot[0].isBooked) { %>
+                          <%= timeslot[0].bookedBy %>
+                          <form action="emptyTimeslot/WednesdayEvening" method="POST">
+                            <button type="submit" class="btn btn-outline-danger">Drop</button>
+                          </form>
+                        <% } else { %>
+                          <form action="/assignEmployee/WednesdayEvening" method="POST">
+                            <select name="employeeSelect">
+                              <% employeeData.forEach(employee => { %>
+                                <option value="<%= employee.username %>"><%= employee.username %></option>
+                              <% }) %>
+                            </select>
+                            <button type="submit" class="btn btn-outline-danger">Assign Employee</button>
+                          </form>
+                        <% } %>
+                      <% } %>
+                    <% }); %>
+                  <% }); %>
+                </td> 
+
+                <!--////////////////////////THURSDAY EVENING////////////////////////-->
+                <td>
+                  <% matrixData.forEach(matrix => { %>
+                    <% matrix.matrix.forEach(timeslot => { %>
+                      <% if (timeslot[0].day === "ThursdayEvening") { %>
+                        <% if (timeslot[0].isBooked) { %>
+                          <%= timeslot[0].bookedBy %>
+                          <form action="emptyTimeslot/ThursdayEvening" method="POST">
+                            <button type="submit" class="btn btn-outline-danger">Drop</button>
+                          </form>
+                        <% } else { %>
+                          <form action="/assignEmployee/ThursdayEvening" method="POST">
+                            <select name="employeeSelect">
+                              <% employeeData.forEach(employee => { %>
+                                <option value="<%= employee.username %>"><%= employee.username %></option>
+                              <% }) %>
+                            </select>
+                            <button type="submit" class="btn btn-outline-danger">Assign Employee</button>
+                          </form>
+                        <% } %>
+                      <% } %>
+                    <% }); %>
+                  <% }); %>
+                </td> 
+
+                 <!--////////////////////////FRIDAY EVENING////////////////////////-->
+                 <td>
+                  <% matrixData.forEach(matrix => { %>
+                    <% matrix.matrix.forEach(timeslot => { %>
+                      <% if (timeslot[0].day === "FridayEvening") { %>
+                        <% if (timeslot[0].isBooked) { %>
+                          <%= timeslot[0].bookedBy %>
+                          <form action="emptyTimeslot/FridayEvening" method="POST">
+                            <button type="submit" class="btn btn-outline-danger">Drop</button>
+                          </form>
+                        <% } else { %>
+                          <form action="/assignEmployee/FridayEvening" method="POST">
+                            <select name="employeeSelect">
+                              <% employeeData.forEach(employee => { %>
+                                <option value="<%= employee.username %>"><%= employee.username %></option>
+                              <% }) %>
+                            </select>
+                            <button type="submit" class="btn btn-outline-danger">Assign Employee</button>
+                          </form>
+                        <% } %>
+                      <% } %>
+                    <% }); %>
+                  <% }); %>
+                </td> 
+                </tr>
+            </tbody>
+          </table>
+        <% } %>
+        
+        <br>
+        <br>
+
+        <button type="submit">Send the Schedule</button>
+      
+        
+
+
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL"
+            crossorigin="anonymous"></script>
+</body>
+
+</html>
