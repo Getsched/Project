@@ -133,6 +133,12 @@ Seonyu Park <br />
 > - Shift Management: Allows employers to add or drop employees from shifts, and employees to choose and view their shifts for the week. <br />
 > - Schedule Visibility: Enables managers to view the entire schedule and share it with all employees securely.<br />
 > - Security Features: Implements authentication, salting, and hashing for secure user access.<br />
+> <br  />
+> Environmental, Societal, Safety, and Economic Considerations: <br  />
+> - Environmental: Promotes sustainability by reducing the need for paper and manual supplies. <br  />
+> - Societal: Contributes to reducing workload and stress for users. <br  />
+> - Economic: Offers a cost-effective solution as the application is completely free to use. <br  />
+> - Safety: Incorporates secure authentication measures to ensure the safety of user data. <br  />
 #### Figure 6: Design Selection <br  />
 > <img width="632" alt="Matrix" src="https://github.com/Getsched/WorkFlow/assets/133157186/17546413-031a-46c1-8c01-76789ae7edc3">
 
