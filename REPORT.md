@@ -65,7 +65,7 @@ Seonyu Park <br />
 [11. Table 11](https://github.com/Getsched/WorkFlow/blob/main/REPORT.md#table-11-week-11-meeting)  
 [12. Table 12](https://github.com/Getsched/WorkFlow/blob/main/REPORT.md#table-12-week-12-meeting)  
 [13. Table 13](https://github.com/Getsched/WorkFlow/blob/main/REPORT.md#table-13-week-13-meeting)  
-[14. Table 14]
+[14. Table 14](https://github.com/Getsched/WorkFlow/blob/main/REPORT.md#table-14-comparison-of-solutions)  
 
 ### 1. Introduction <br />
 > Employers are responsible for managing their employees' schedules efficiently to ensure high-quality production output. However, the ever-changing nature of employment makes it difficult for employers to maintain real-time communication and update all the necessary information at once. Recognizing the need for a more efficient and user-friendly solution, we present our innovative web-based software application. Our software is An advanced scheduling tool designed to empower employers and employees. This application revolutionizes traditional scheduling methods, allowing employees to actively manage their schedules while relieving employers of the burdensome task of manually coordinating every job. Numerous scheduling software products are available in the market, but most impose user restrictions and charge a monthly subscription fee of up to $60.<br />
