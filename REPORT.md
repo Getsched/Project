@@ -122,12 +122,17 @@ Seonyu Park <br />
 > After an iterative design process, the final solution that best aligns with the project requirements, objectives, and constraints is a web-based scheduling application. This solution provides a user-friendly interface for both employees and employers while incorporating robust security measures, adhering to ethical standards, and contributing positively to environmental and societal aspects. <br />
 > <img width="771" alt="solution3" src="https://github.com/Getsched/WorkFlow/assets/133157186/76fc1cd1-1fdf-49fc-a90d-550ba42b58a4"><br />
 > <br />
-> Comonents: <br />
+> Components: <br />
 > - Frontend Interface: Provides a user-friendly interface for sign-up, login, availability submission, and shift management. <br />
 > - Backend Server: Manages data processing, authentication, authorization, and communication between the database and frontend. <br />
 > - Database: Stores user data, availability information, and schedule details securely.<br />
 > - Authentication Module: Ensures secure user access through authentication, salting, and hashing processes. <br />
 > <br />
+> Features: <br />
+> - User-friendly Interface: Facilitates sign-up, login, availability submission, and shift management.<br />
+> - Shift Management: Allows employers to add or drop employees from shifts, and employees to choose and view their shifts for the week. <br />
+> - Schedule Visibility: Enables managers to view the entire schedule and share it with all employees securely.<br />
+> - Security Features: Implements authentication, salting, and hashing for secure user access.<br />
 #### Figure 6: Design Selection <br  />
 > <img width="632" alt="Matrix" src="https://github.com/Getsched/WorkFlow/assets/133157186/17546413-031a-46c1-8c01-76789ae7edc3">
 
