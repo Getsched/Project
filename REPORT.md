@@ -239,6 +239,18 @@ Seonyu Park <br />
 > 6. Ethical Considerations: Adherence to copyright regulations for photos and logos demonstrates moral responsibility in content usage.
 Sustainability: The software promotes environmental sustainability by allowing users to reduce reliance on manual supplies and paperwork.<br />
 > 7. Societal Impact: The application positively contributes to societal well-being by reducing workload and stress.<br />
+>
+> Future Work: <br />
+> <br />
+> <br />
+> Although the current implementation has been successful, there are still areas for potential improvement and expansion in future iterations of the software. These areas include:<br />
+> <br />
+> 1. Enhanced User Experience: Continuously improve the user interface and experience to make the application more user-friendly and accessible. <br />
+> 2. Integration with External Systems: Consider integrating the scheduling application with other enterprise systems, such as payroll or HR software, to create a more comprehensive solution.<br />
+> 3. Mobile App Development: Develop a mobile version of the application to enhance accessibility and convenience for users who prefer mobile devices.<br />
+> <br />
+> <br />
+> By addressing these future considerations, the scheduling application can evolve to meet the changing needs of users and organizations, ensuring continued success and relevance in the dynamic workforce management landscape.<br />
 
 ### 7. References
 
