@@ -253,12 +253,3 @@ Sustainability: The software promotes environmental sustainability by allowing u
 > <br />
 > By addressing these future considerations, the scheduling application can evolve to meet the changing needs of users and organizations, ensuring continued success and relevance in the dynamic workforce management landscape.<br />
 
-### 7. References
-
-
-## Status
-- [x] add [Business Case](https://github.com/Getsched/Project/blob/main/documents/Business_Case.pdf)
-- [x] add [Cost Estimate](https://github.com/Getsched/Project/blob/main/documents/Cost_Estimates.pdf)
-- [x] add [Group Google Drive](https://github.com/Getsched/Project/blob/main/documents/Group_Google_Drive.md)
-- [x] add [Gantt Chart](https://github.com/Getsched/Project/blob/main/documents/Gantt_Chart.pdf)
-- [x] add Weekly Meeting Documents
