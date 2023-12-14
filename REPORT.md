@@ -226,6 +226,7 @@ Seonyu Park <br />
 
 
 ### 6.Conclusion and Future Work
+**Conclusion:** <br />
 > The project has concluded successfully with the delivery of a user-friendly scheduling application that fulfills crucial functions and objectives while complying with various constraints. Implementing sign-up and login functionalities ensures secure access to the scheduling system, enabling users to submit their availability. Employers can manage shifts efficiently by adding or removing employees as needed, which is a significant benefit.<br />
 > <br />
 > <br />
@@ -240,8 +241,8 @@ Seonyu Park <br />
 Sustainability: The software promotes environmental sustainability by allowing users to reduce reliance on manual supplies and paperwork.<br />
 > 7. Societal Impact: The application positively contributes to societal well-being by reducing workload and stress.<br />
 > <br />
-> **Future Work:** <br />
 > <br />
+**Future Work:** <br />
 > <br />
 > Although the current implementation has been successful, there are still areas for potential improvement and expansion in future iterations of the software. These areas include:<br />
 > <br />
